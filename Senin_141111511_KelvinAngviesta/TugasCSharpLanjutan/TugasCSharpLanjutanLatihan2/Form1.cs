@@ -19,23 +19,34 @@ namespace TugasCSharpLanjutanLatihan2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DateTime TahunAwal = new DateTime(2016, 1, 1);
-            DateTime TahunAkhir = new DateTime(2016, 12, 31);
-            for (int i = TahunAwal.DayOfYear; i <= TahunAkhir.DayOfYear; i++)
+            DateTime SetTahunAwal = new DateTime(2016, 1, 1);
+            for (int i = SetTahunAwal.DayOfYear; i <=SetTahunAwal.DayOfYear; i++)
             {
-                if (TahunAwal.DayOfWeek.ToString() == "Sunday" || TahunAwal.DayOfWeek.ToString() == "Saturday")
+                if (SetTahunAwal.DayOfWeek.ToString() == "Sunday" || SetTahunAwal.DayOfWeek.ToString() == "Saturday")
                 {
-                    monthCalendar1.AddBoldedDate(TahunAwal);
+                    monthCalendar1.AddBoldedDate(SetTahunAwal);
+                    
                 }
 
-                TahunAwal = TahunAwal.AddDays(1);
+                SetTahunAwal = SetTahunAwal.AddDays(1);
             }
+            DateTime TanggalLahir = new DateTime(2016, 9, 27);
+            monthCalendar1.AddAnnuallyBoldedDate(TanggalLahir);
         }
 
         private void BtnTambah_Click(object sender, EventArgs e)
         {
-            DateTime Tanggal = new DateTime(2016, (int)NuPBulan.Value, (int)NuPTanggal.Value);
-            monthCalendar1.AddBoldedDate(Tanggal);
+            if ((int)NuPBulan.Value == 0 || (int)NuPTanggal.Value == 0)
+            {
+                MessageBox.Show("Inputan Tidak Valid");
+
+            }
+            else
+            {
+                DateTime Tanggal = new DateTime(2016, (int)NuPBulan.Value, (int)NuPTanggal.Value);
+                monthCalendar1.AddBoldedDate(Tanggal);
+            }
+            
         }
 
         private void NuPBulan_ValueChanged(object sender, EventArgs e)
