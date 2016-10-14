@@ -22,17 +22,20 @@ namespace TugasCSharpLanjutanLatihan3
             
             foreach (FontFamily font in FontFamily.Families)
             {
+
                 CmbboxFont.Items.Add(font.Name.ToString());
+               
                
             }
             
-            for (int i = 2; i <= 72; i += 2)
+            for (int i = 2; i <= 115; i += 2)
             {
                 CmbboxSize.Items.Add(i);
                 
             }
-            CmbboxSize.SelectedIndex = 2;
+            CmbboxSize.SelectedIndex = 5;
             CmbboxFont.Text = "Times New Roman";
+            
             
         }
 
@@ -94,7 +97,18 @@ namespace TugasCSharpLanjutanLatihan3
             richTextBox1.ForeColor = Warna.Color;
         }
 
+ 
+        private void CmbboxFont_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            richTextBox1.Font = new Font(CmbboxFont.SelectedItem.ToString(), richTextBox1.Font.Size);
+        }
+
+        private void CmbboxSize_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            richTextBox1.Font = new Font(richTextBox1.Font.FontFamily, float.Parse(CmbboxSize.SelectedItem.ToString()));
+           
+        }
        
-     
+      
     }
 }

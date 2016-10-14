@@ -37,6 +37,8 @@
             this.tsbbtnUnderline = new System.Windows.Forms.ToolStripButton();
             this.CmbboxFont = new System.Windows.Forms.ToolStripComboBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.toolStrip1.SuspendLayout();
@@ -46,14 +48,18 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(0, 28);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(364, 423);
+            this.richTextBox1.Size = new System.Drawing.Size(498, 423);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
             // CmbboxSize
             // 
+            this.CmbboxSize.DropDownHeight = 200;
+            this.CmbboxSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbboxSize.IntegralHeight = false;
             this.CmbboxSize.Name = "CmbboxSize";
             this.CmbboxSize.Size = new System.Drawing.Size(121, 25);
+            this.CmbboxSize.SelectedIndexChanged += new System.EventHandler(this.CmbboxSize_SelectedIndexChanged);
             // 
             // tsbbtnBold
             // 
@@ -86,23 +92,41 @@
             // 
             // CmbboxFont
             // 
+            this.CmbboxFont.DropDownHeight = 200;
+            this.CmbboxFont.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbboxFont.IntegralHeight = false;
             this.CmbboxFont.Name = "CmbboxFont";
             this.CmbboxFont.Size = new System.Drawing.Size(121, 25);
+            this.CmbboxFont.SelectedIndexChanged += new System.EventHandler(this.CmbboxFont_SelectedIndexChanged);
             // 
             // toolStrip1
             // 
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripLabel2,
             this.CmbboxSize,
             this.tsbbtnBold,
             this.tsbbtnItalic,
             this.tsbbtnUnderline,
+            this.toolStripLabel1,
             this.CmbboxFont,
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(364, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(498, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(27, 22);
+            this.toolStripLabel2.Text = "Size";
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
+            this.toolStripLabel1.Text = "Font";
             // 
             // toolStripButton1
             // 
@@ -118,11 +142,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 449);
+            this.ClientSize = new System.Drawing.Size(498, 449);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.toolStrip1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Note Pad ++";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
@@ -143,6 +167,8 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel2;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
     }
 }
 
