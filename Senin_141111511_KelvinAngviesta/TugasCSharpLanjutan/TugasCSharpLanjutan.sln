@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TugasCSharpLanjutanLatihan1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TugasCSharpLanjutanLatihan2", "TugasCSharpLanjutanLatihan2\TugasCSharpLanjutanLatihan2.csproj", "{01CF269C-E301-496A-BEDE-85B2D312D23B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TugasCSharpLanjutanLatihan3", "TugasCSharpLanjutanLatihan3\TugasCSharpLanjutanLatihan3.csproj", "{F6D8CE24-B89C-4B5B-902E-FC225A6B821C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{01CF269C-E301-496A-BEDE-85B2D312D23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01CF269C-E301-496A-BEDE-85B2D312D23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01CF269C-E301-496A-BEDE-85B2D312D23B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D8CE24-B89C-4B5B-902E-FC225A6B821C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D8CE24-B89C-4B5B-902E-FC225A6B821C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D8CE24-B89C-4B5B-902E-FC225A6B821C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D8CE24-B89C-4B5B-902E-FC225A6B821C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
