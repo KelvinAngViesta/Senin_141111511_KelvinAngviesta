@@ -108,6 +108,10 @@ namespace TugasCSharpLanjutanLatihan3
             richTextBox1.Font = new Font(richTextBox1.Font.FontFamily, float.Parse(CmbboxSize.SelectedItem.ToString()));
            
         }
+
+       
+
+       
        
       
     }
