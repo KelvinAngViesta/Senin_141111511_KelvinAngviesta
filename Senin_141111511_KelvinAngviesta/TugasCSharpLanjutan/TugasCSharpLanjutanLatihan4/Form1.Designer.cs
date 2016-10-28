@@ -72,14 +72,14 @@
             this.saveFileToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // newFileToolStripMenuItem
             // 
             this.newFileToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newFileToolStripMenuItem.Image")));
             this.newFileToolStripMenuItem.Name = "newFileToolStripMenuItem";
-            this.newFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newFileToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.newFileToolStripMenuItem.Text = "New File";
             this.newFileToolStripMenuItem.Click += new System.EventHandler(this.newFileToolStripMenuItem_Click);
             // 
@@ -87,7 +87,7 @@
             // 
             this.openFileToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openFileToolStripMenuItem.Image")));
             this.openFileToolStripMenuItem.Name = "openFileToolStripMenuItem";
-            this.openFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openFileToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.openFileToolStripMenuItem.Text = "Open File";
             this.openFileToolStripMenuItem.Click += new System.EventHandler(this.openFileToolStripMenuItem_Click);
             // 
@@ -95,7 +95,7 @@
             // 
             this.saveFileToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveFileToolStripMenuItem.Image")));
             this.saveFileToolStripMenuItem.Name = "saveFileToolStripMenuItem";
-            this.saveFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveFileToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.saveFileToolStripMenuItem.Text = "Save File";
             this.saveFileToolStripMenuItem.Click += new System.EventHandler(this.saveFileToolStripMenuItem_Click);
             // 
@@ -103,7 +103,7 @@
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -122,7 +122,7 @@
             this.CmbboxSize.IntegralHeight = false;
             this.CmbboxSize.Name = "CmbboxSize";
             this.CmbboxSize.Size = new System.Drawing.Size(121, 25);
-            this.CmbboxSize.SelectedIndexChanged += new System.EventHandler(this.CmbboxSize_SelectedIndexChanged);
+            this.CmbboxSize.SelectedIndexChanged += new System.EventHandler(this.CmbboxFont_SelectedIndexChanged);
             // 
             // tsbbtnBold
             // 
@@ -183,13 +183,13 @@
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(26, 22);
+            this.toolStripLabel2.Size = new System.Drawing.Size(27, 22);
             this.toolStripLabel2.Text = "Size";
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(29, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
             this.toolStripLabel1.Text = "Font";
             // 
             // toolStripButton1
@@ -230,7 +230,6 @@
             this.BtnSaveEdit.Text = "Save Pada Saat Edit";
             this.BtnSaveEdit.UseVisualStyleBackColor = true;
             this.BtnSaveEdit.Click += new System.EventHandler(this.BtnSaveEdit_Click);
-            
             // 
             // Form1
             // 
