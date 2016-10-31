@@ -94,19 +94,14 @@ namespace TugasCSharpLanjutanLatihan4
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             var Warna = new ColorDialog();
-            Warna.ShowDialog();
-            richTextBox1.ForeColor = Warna.Color;
+            if (Warna.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.SelectionColor = Warna.Color;
+
+            }
         }
 
-        private void CmbboxFont_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            richTextBox1.Font = new Font(CmbboxFont.SelectedItem.ToString(), richTextBox1.Font.Size);
-        }
-
-        private void CmbboxSize_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            richTextBox1.Font = new Font(richTextBox1.Font.FontFamily, float.Parse(CmbboxSize.SelectedItem.ToString()));
-        }
+       
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
@@ -117,6 +112,17 @@ namespace TugasCSharpLanjutanLatihan4
             }
 
             
+        }
+        private void CmbboxFont_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            richTextBox1.Font = new Font(CmbboxFont.SelectedItem.ToString(), richTextBox1.Font.Size);
+
+        }
+
+        private void CmbboxSize_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            richTextBox1.Font = new Font(richTextBox1.Font.FontFamily, float.Parse(CmbboxSize.SelectedItem.ToString()));
         }
         String filename;
         Boolean Newfile= false;

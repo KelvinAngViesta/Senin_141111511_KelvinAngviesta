@@ -44,10 +44,6 @@
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // fontDialog1
-            // 
-         
-            // 
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(0, 28);
@@ -55,7 +51,6 @@
             this.richTextBox1.Size = new System.Drawing.Size(498, 423);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
-    
             // 
             // CmbboxSize
             // 
@@ -65,7 +60,6 @@
             this.CmbboxSize.Name = "CmbboxSize";
             this.CmbboxSize.Size = new System.Drawing.Size(121, 25);
             this.CmbboxSize.SelectedIndexChanged += new System.EventHandler(this.CmbboxSize_SelectedIndexChanged);
-          
             // 
             // tsbbtnBold
             // 
@@ -104,7 +98,6 @@
             this.CmbboxFont.Name = "CmbboxFont";
             this.CmbboxFont.Size = new System.Drawing.Size(121, 25);
             this.CmbboxFont.SelectedIndexChanged += new System.EventHandler(this.CmbboxFont_SelectedIndexChanged);
-           
             // 
             // toolStrip1
             // 
@@ -122,21 +115,18 @@
             this.toolStrip1.Size = new System.Drawing.Size(498, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
-           
             // 
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(26, 22);
+            this.toolStripLabel2.Size = new System.Drawing.Size(27, 22);
             this.toolStripLabel2.Text = "Size";
-            
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(29, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
             this.toolStripLabel1.Text = "Font";
-            
             // 
             // toolStripButton1
             // 

@@ -123,6 +123,7 @@
             this.CmbboxSize.Name = "CmbboxSize";
             this.CmbboxSize.Size = new System.Drawing.Size(121, 25);
             this.CmbboxSize.SelectedIndexChanged += new System.EventHandler(this.CmbboxFont_SelectedIndexChanged);
+            this.CmbboxSize.Click += new System.EventHandler(this.CmbboxSize_SelectedIndexChanged);
             // 
             // tsbbtnBold
             // 

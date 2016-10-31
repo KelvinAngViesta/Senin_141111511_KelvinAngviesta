@@ -19,12 +19,22 @@ namespace TugasCSharpLanjutanLatihan5_1
 
         private void FormEditor_Load(object sender, EventArgs e)
         {
-
+            PanelWarna.Hide();
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
+            if (treeView1.SelectedNode.Text == "Background Color")
+            {
+                PanelWarna.Show();
+                pictureBox1.Show();
+            }
+        }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+            
         }
     }
 }

@@ -93,8 +93,10 @@ namespace TugasCSharpLanjutanLatihan3
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             var Warna = new ColorDialog();
-            Warna.ShowDialog();
-            richTextBox1.ForeColor = Warna.Color;
+            if (Warna.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.SelectionColor = Warna.Color;
+            }
         }
 
  

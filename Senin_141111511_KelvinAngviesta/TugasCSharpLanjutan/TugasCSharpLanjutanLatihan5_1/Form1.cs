@@ -64,6 +64,7 @@ namespace TugasCSharpLanjutanLatihan5_1
 
         private void tsbbtnItalic_Click(object sender, EventArgs e)
         {
+           
             Font Italic, NonItalic;
             NonItalic = richTextBox1.SelectionFont;
             if (NonItalic.Italic)
@@ -99,20 +100,27 @@ namespace TugasCSharpLanjutanLatihan5_1
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             var Warna = new ColorDialog();
-            Warna.ShowDialog();
-            richTextBox1.ForeColor = Warna.Color;
+            if (Warna.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.SelectionColor = Warna.Color;
+                
+            }
         }
 
-        private void CmbboxSize_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            richTextBox1.Font = new Font(richTextBox1.Font.FontFamily, float.Parse(CmbboxSize.SelectedItem.ToString()));
-        }
+       
 
         private void CmbboxFont_SelectedIndexChanged(object sender, EventArgs e)
         {
-            richTextBox1.Font = new Font(CmbboxFont.SelectedItem.ToString(), richTextBox1.Font.Size);
+            richTextBox1.Font = new Font(CmbboxFont.SelectedText.ToString(), richTextBox1.Font.Size);
+     
         }
+        private void CmbboxSize_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            richTextBox1.Font = new Font(richTextBox1.Font.FontFamily, float.Parse(CmbboxSize.SelectedItem.ToString()));
 
+
+        }
+       
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             var Warna = new ColorDialog();
@@ -210,10 +218,12 @@ namespace TugasCSharpLanjutanLatihan5_1
 
         private void BtnSaveEdit_Click(object sender, EventArgs e)
         {
+            
             StreamWriter streamWrite = new StreamWriter(filename);
             streamWrite.Write(richTextBox1.Text);
             streamWrite.Dispose();
             LblFileName.Text = filename;
+            
         }
 
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
@@ -239,9 +249,11 @@ namespace TugasCSharpLanjutanLatihan5_1
 
         private void editorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FormEditor FormEditor = new FormEditor();
+            FormEditor.Show();
         }
 
+      
 
       
     }
