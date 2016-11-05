@@ -216,13 +216,7 @@ namespace TugasCSharpLanjutanLatihan5
         {
             richTextBox1.Font = new Font(richTextBox1.Font.FontFamily, float.Parse(CmbboxSize.SelectedItem.ToString()));
         }
-
-        private void editorToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormEditor FormEditor = new FormEditor();
-            FormEditor.Show();
-        }
-
+       
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             richTextBox1.Copy();
@@ -242,6 +236,32 @@ namespace TugasCSharpLanjutanLatihan5
         {
             richTextBox1.Text = richTextBox1.Text.Remove(richTextBox1.SelectionStart, richTextBox1.SelectionLength);
         }
+        
+        FormEditor Formeditor;
+        private void editorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
+            if (Formeditor == null || !Formeditor.IsHandleCreated)
+            {
+                Formeditor = new FormEditor();
+                Formeditor.MdiParent= this;
+                Formeditor.BringToFront();
+                richTextBox1.SendToBack();
+                Formeditor.Show();
+            }
+            else
+            {
+                Formeditor.Show();
+            }
+        }
+        public void show()
+        {
+            richTextBox1.BringToFront();
+        }
+      
+        public string getColor()
+        {
+            return richTextBox1.BackColor.Name;
+        }
     }
 }

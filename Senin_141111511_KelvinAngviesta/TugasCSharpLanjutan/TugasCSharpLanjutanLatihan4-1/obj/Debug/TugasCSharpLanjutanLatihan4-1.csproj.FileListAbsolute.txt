@@ -6,3 +6,12 @@ E:\KULIAH\SEMESTER V\FrameWorkLanjutan\CSharpLanjutan\Senin_141111511_KelvinAngv
 E:\KULIAH\SEMESTER V\FrameWorkLanjutan\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\obj\Debug\TugasCSharpLanjutanLatihan4-1.csproj.GenerateResource.Cache
 E:\KULIAH\SEMESTER V\FrameWorkLanjutan\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\obj\Debug\TugasCSharpLanjutanLatihan4-1.exe
 E:\KULIAH\SEMESTER V\FrameWorkLanjutan\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\obj\Debug\TugasCSharpLanjutanLatihan4-1.pdb
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\bin\Debug\TugasCSharpLanjutanLatihan4-1.exe.config
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\obj\Debug\TugasCSharpLanjutanLatihan4-1.exe
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\obj\Debug\TugasCSharpLanjutanLatihan4-1.pdb
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\bin\Debug\TugasCSharpLanjutanLatihan4-1.exe
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\bin\Debug\TugasCSharpLanjutanLatihan4-1.pdb
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\obj\Debug\TugasCSharpLanjutanLatihan4-1.csprojResolveAssemblyReference.cache
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\obj\Debug\TugasCSharpLanjutanLatihan4_1.Form1.resources
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\obj\Debug\TugasCSharpLanjutanLatihan4_1.Properties.Resources.resources
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutanLatihan4-1\obj\Debug\TugasCSharpLanjutanLatihan4-1.csproj.GenerateResource.Cache
