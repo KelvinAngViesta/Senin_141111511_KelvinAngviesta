@@ -1,0 +1,10 @@
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Project\bin\Debug\Project.exe.config
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Project\bin\Debug\Project.exe
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Project\bin\Debug\Project.pdb
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Project\obj\Debug\Project.Properties.Resources.resources
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Project\obj\Debug\Project.exe
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Project\obj\Debug\Project.pdb
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Project\obj\Debug\Project.FormAwal.resources
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Project\obj\Debug\Project.FormRegistrationBarang.resources
