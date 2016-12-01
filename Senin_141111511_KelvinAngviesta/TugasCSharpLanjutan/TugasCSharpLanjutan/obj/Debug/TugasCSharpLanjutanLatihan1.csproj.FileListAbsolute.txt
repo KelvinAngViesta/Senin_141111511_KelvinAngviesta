@@ -16,3 +16,6 @@ E:\KULIAH\SEMESTER V\FrameWorkLanjutan\CSharpLanjutan\Senin_141111511_KelvinAngv
 E:\KULIAH\SEMESTER V\FrameWorkLanjutan\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutan\obj\Debug\TugasCSharpLanjutan.Form1.resources
 E:\KULIAH\SEMESTER V\FrameWorkLanjutan\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutan\obj\Debug\TugasCSharpLanjutan.Properties.Resources.resources
 E:\KULIAH\SEMESTER V\FrameWorkLanjutan\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutan\obj\Debug\TugasCSharpLanjutanLatihan1.csproj.GenerateResource.Cache
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutan\bin\Debug\TugasCSharpLanjutan.exe.config
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutan\obj\Debug\TugasCSharpLanjutan.exe
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\TugasCSharpLanjutan\obj\Debug\TugasCSharpLanjutan.pdb

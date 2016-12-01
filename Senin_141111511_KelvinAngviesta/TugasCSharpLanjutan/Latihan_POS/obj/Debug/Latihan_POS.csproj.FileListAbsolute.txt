@@ -1,0 +1,10 @@
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\bin\Debug\Latihan_POS.exe.config
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\bin\Debug\Latihan_POS.exe
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\bin\Debug\Latihan_POS.pdb
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.csprojResolveAssemblyReference.cache
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormAwal.resources
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormRegistrationBarang.resources
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.Properties.Resources.resources
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.csproj.GenerateResource.Cache
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.exe
+D:\Kangviesta\Semester V\CSharp Lanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.pdb
