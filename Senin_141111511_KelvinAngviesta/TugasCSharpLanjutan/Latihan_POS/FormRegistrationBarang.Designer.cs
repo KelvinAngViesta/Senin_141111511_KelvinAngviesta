@@ -48,16 +48,16 @@
             // 
             // TxtNamaBrg
             // 
-            this.TxtNamaBrg.Location = new System.Drawing.Point(132, 104);
+            this.TxtNamaBrg.Location = new System.Drawing.Point(158, 104);
             this.TxtNamaBrg.Name = "TxtNamaBrg";
-            this.TxtNamaBrg.Size = new System.Drawing.Size(100, 20);
+            this.TxtNamaBrg.Size = new System.Drawing.Size(168, 20);
             this.TxtNamaBrg.TabIndex = 31;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(11, 104);
+            this.label7.Location = new System.Drawing.Point(37, 104);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(111, 18);
             this.label7.TabIndex = 30;
@@ -65,7 +65,7 @@
             // 
             // BtnKeluar
             // 
-            this.BtnKeluar.Location = new System.Drawing.Point(157, 256);
+            this.BtnKeluar.Location = new System.Drawing.Point(251, 255);
             this.BtnKeluar.Name = "BtnKeluar";
             this.BtnKeluar.Size = new System.Drawing.Size(75, 23);
             this.BtnKeluar.TabIndex = 29;
@@ -75,7 +75,7 @@
             // 
             // BtnCancel
             // 
-            this.BtnCancel.Location = new System.Drawing.Point(157, 227);
+            this.BtnCancel.Location = new System.Drawing.Point(251, 226);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Size = new System.Drawing.Size(75, 23);
             this.BtnCancel.TabIndex = 28;
@@ -85,7 +85,7 @@
             // 
             // BtnSimpan
             // 
-            this.BtnSimpan.Location = new System.Drawing.Point(71, 227);
+            this.BtnSimpan.Location = new System.Drawing.Point(170, 226);
             this.BtnSimpan.Name = "BtnSimpan";
             this.BtnSimpan.Size = new System.Drawing.Size(75, 23);
             this.BtnSimpan.TabIndex = 27;
@@ -97,7 +97,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(11, 190);
+            this.label6.Location = new System.Drawing.Point(37, 190);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(110, 18);
             this.label6.TabIndex = 26;
@@ -105,16 +105,16 @@
             // 
             // TxtHrgJual
             // 
-            this.TxtHrgJual.Location = new System.Drawing.Point(132, 190);
+            this.TxtHrgJual.Location = new System.Drawing.Point(158, 190);
             this.TxtHrgJual.Name = "TxtHrgJual";
-            this.TxtHrgJual.Size = new System.Drawing.Size(100, 20);
+            this.TxtHrgJual.Size = new System.Drawing.Size(168, 20);
             this.TxtHrgJual.TabIndex = 25;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(11, 162);
+            this.label5.Location = new System.Drawing.Point(37, 162);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(110, 18);
             this.label5.TabIndex = 24;
@@ -122,23 +122,23 @@
             // 
             // TxtHrgBrg
             // 
-            this.TxtHrgBrg.Location = new System.Drawing.Point(132, 162);
+            this.TxtHrgBrg.Location = new System.Drawing.Point(158, 162);
             this.TxtHrgBrg.Name = "TxtHrgBrg";
-            this.TxtHrgBrg.Size = new System.Drawing.Size(100, 20);
+            this.TxtHrgBrg.Size = new System.Drawing.Size(168, 20);
             this.TxtHrgBrg.TabIndex = 23;
             // 
             // TxtJlhBrg
             // 
-            this.TxtJlhBrg.Location = new System.Drawing.Point(132, 132);
+            this.TxtJlhBrg.Location = new System.Drawing.Point(158, 132);
             this.TxtJlhBrg.Name = "TxtJlhBrg";
-            this.TxtJlhBrg.Size = new System.Drawing.Size(100, 20);
+            this.TxtJlhBrg.Size = new System.Drawing.Size(168, 20);
             this.TxtJlhBrg.TabIndex = 22;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 132);
+            this.label4.Location = new System.Drawing.Point(38, 132);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 18);
             this.label4.TabIndex = 21;
@@ -146,16 +146,16 @@
             // 
             // TxtKodeBrg
             // 
-            this.TxtKodeBrg.Location = new System.Drawing.Point(132, 77);
+            this.TxtKodeBrg.Location = new System.Drawing.Point(158, 77);
             this.TxtKodeBrg.Name = "TxtKodeBrg";
-            this.TxtKodeBrg.Size = new System.Drawing.Size(100, 20);
+            this.TxtKodeBrg.Size = new System.Drawing.Size(168, 20);
             this.TxtKodeBrg.TabIndex = 20;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(11, 77);
+            this.label3.Location = new System.Drawing.Point(37, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 18);
             this.label3.TabIndex = 19;
@@ -165,7 +165,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 49);
+            this.label2.Location = new System.Drawing.Point(39, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 18);
             this.label2.TabIndex = 18;
@@ -175,7 +175,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(66, 9);
+            this.label1.Location = new System.Drawing.Point(119, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(139, 26);
             this.label1.TabIndex = 17;
@@ -183,16 +183,18 @@
             // 
             // TxtIdBrg
             // 
-            this.TxtIdBrg.Location = new System.Drawing.Point(132, 49);
+            this.TxtIdBrg.Location = new System.Drawing.Point(158, 49);
             this.TxtIdBrg.Name = "TxtIdBrg";
-            this.TxtIdBrg.Size = new System.Drawing.Size(100, 20);
+            this.TxtIdBrg.Size = new System.Drawing.Size(168, 20);
             this.TxtIdBrg.TabIndex = 16;
             // 
             // FormRegistrationBarang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(256, 294);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(384, 294);
             this.Controls.Add(this.TxtNamaBrg);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.BtnKeluar);
@@ -209,7 +211,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtIdBrg);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormRegistrationBarang";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormRegistrationBarang";
             this.Load += new System.EventHandler(this.FormRegistrationBarang_Load);
             this.ResumeLayout(false);

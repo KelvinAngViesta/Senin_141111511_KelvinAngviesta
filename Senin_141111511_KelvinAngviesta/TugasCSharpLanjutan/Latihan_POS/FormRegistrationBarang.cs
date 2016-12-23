@@ -107,6 +107,7 @@ namespace Latihan_POS
                     conn.Close();
                 }
             }
+            
         }
 
         private void BtnCancel_Click(object sender, EventArgs e)
