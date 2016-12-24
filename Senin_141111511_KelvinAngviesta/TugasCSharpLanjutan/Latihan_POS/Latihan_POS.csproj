@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAwal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAwal.resx">
       <DependentUpon>FormAwal.cs</DependentUpon>
     </EmbeddedResource>
@@ -77,18 +86,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -99,16 +108,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Green2.jpg" />
+    <None Include="Resources\AddRegisBarangs1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Green1.jpg" />
+    <None Include="Resources\AddBarangCustomer2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Red1.jpg" />
+    <None Include="Resources\AddBarangCustomer1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Red2.jpg" />
+    <None Include="Resources\AddRegisBarang1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddRegisBarang2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ListBarang2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ListBarang.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

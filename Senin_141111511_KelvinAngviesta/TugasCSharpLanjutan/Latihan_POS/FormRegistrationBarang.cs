@@ -26,6 +26,7 @@ namespace Latihan_POS
         {
             FormAwal form = (FormAwal)MdiParent;
             conn = new MySqlConnection(myConnectionString);
+            
         }
         private int isNumber(String number)
         {

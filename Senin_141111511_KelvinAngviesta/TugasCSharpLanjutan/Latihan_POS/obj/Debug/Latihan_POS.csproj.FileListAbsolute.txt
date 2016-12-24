@@ -19,3 +19,15 @@ D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Lat
 D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.Properties.Resources.resources
 D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.csproj.GenerateResource.Cache
 D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormCustomer.resources
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\bin\Debug\Latihan_POS.exe.config
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.exe
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.pdb
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\bin\Debug\Latihan_POS.exe
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\bin\Debug\Latihan_POS.pdb
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.csprojResolveAssemblyReference.cache
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormAwal.resources
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormCustomer.resources
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormRegistrationBarang.resources
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.Properties.Resources.resources
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.csproj.GenerateResource.Cache
+D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormAbout.resources
