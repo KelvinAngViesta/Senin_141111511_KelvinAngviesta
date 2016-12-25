@@ -31,3 +31,4 @@ D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan
 D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.Properties.Resources.resources
 D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.csproj.GenerateResource.Cache
 D:\Kangviesta\CSharplanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormAbout.resources
+D:\Kuliah\CsharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormAbout.resources

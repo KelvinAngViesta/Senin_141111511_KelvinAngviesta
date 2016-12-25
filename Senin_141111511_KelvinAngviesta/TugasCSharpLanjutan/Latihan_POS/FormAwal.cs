@@ -23,9 +23,7 @@ namespace Latihan_POS
         {
             InitializeComponent();
         }
-        FormRegistrationBarang FormRegis;
-        FormAwal FormUtama;
-        FormCustomer FormCust;
+       
         
         
         private void FormAwal_Load(object sender, EventArgs e)
@@ -61,51 +59,43 @@ namespace Latihan_POS
         {
             PicBox2.Image = Resources.ListBarang;
         }
+        private void PicBoxCust_MouseHover(object sender, EventArgs e)
+        {
+            PicBoxCust.Image = Resources.AddCustomer2;
+        }
+
+        private void PicBoxCust_MouseLeave(object sender, EventArgs e)
+        {
+            PicBoxCust.Image = Resources.AddCustomer1;
+        }
         private void PicBox1_Click(object sender, EventArgs e)
         {
-            if (FormRegis == null || !FormRegis.IsHandleCreated)
-            {
-                FormRegis = new FormRegistrationBarang();
-                FormRegis.MdiParent = this;
-                FormRegis.BringToFront();
-                FormRegis.Show();
-                
-            }
-            else
-            {
-                FormRegis.Show();
-                FormCust.Hide();
-            }
-            PicBox1.Hide(); 
-            PicBox.Hide();
+            FormRegistrationBarang FormRegis = new FormRegistrationBarang();
             PicBox2.Hide();
-            pictureBox1.Hide();
+            PicBox4.Hide();
+            PicBox.Hide();
+            PicBox1.Hide();
+            FormRegis.ShowDialog();
+            
+           
         }
 
         private void PicBox_Click(object sender, EventArgs e)
         {
-
-            if (FormCust == null || !FormCust.IsHandleCreated)
-            {
-                FormCust = new FormCustomer();
-                FormCust.MdiParent = this;
-                FormCust.BringToFront();
-                FormCust.Show();
-            }
-            else if (FormRegis.Visible == true)
-            {
-                FormCust.Show();
-                FormRegis.Hide();
-            }
+            FormCustomer FormCust = new FormCustomer();
+            PicBox2.Hide();
+            PicBox4.Hide();
+            PicBox.Hide();
+            PicBox1.Hide();
+            FormCust.ShowDialog();
         }
 
-        
+        private void PicBox4_Click(object sender, EventArgs e)
+        {
+           
+        }
 
-      
-
-
-
-
+       
         }
     }
 

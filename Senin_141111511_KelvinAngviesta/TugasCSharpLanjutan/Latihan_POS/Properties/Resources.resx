@@ -124,6 +124,12 @@
   <data name="AddBarangCustomer2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AddBarangCustomer2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AddCustomer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCustomer1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddCustomer2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCustomer2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AddRegisBarang1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AddRegisBarang1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
