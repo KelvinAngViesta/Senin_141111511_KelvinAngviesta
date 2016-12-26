@@ -65,7 +65,7 @@
             // 
             this.BtnCancel.BackColor = System.Drawing.Color.Yellow;
             this.BtnCancel.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCancel.Location = new System.Drawing.Point(276, 302);
+            this.BtnCancel.Location = new System.Drawing.Point(276, 301);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Size = new System.Drawing.Size(75, 26);
             this.BtnCancel.TabIndex = 44;
@@ -77,7 +77,7 @@
             // 
             this.BtnSimpan.BackColor = System.Drawing.Color.Yellow;
             this.BtnSimpan.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSimpan.Location = new System.Drawing.Point(195, 302);
+            this.BtnSimpan.Location = new System.Drawing.Point(195, 301);
             this.BtnSimpan.Name = "BtnSimpan";
             this.BtnSimpan.Size = new System.Drawing.Size(75, 26);
             this.BtnSimpan.TabIndex = 43;

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using Latihan_POS.Properties;
 using Latihan_POS.FormMenu;
+using Latihan_POS.FormEdit;
 
 namespace Latihan_POS
 {
@@ -81,6 +82,15 @@ namespace Latihan_POS
         {
             PicBoxSup.Image = Resources.Supplier1;
         }
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            PicEditCust.Image = Resources.EditCust2;
+        }
+
+        private void PicEditCust_MouseLeave(object sender, EventArgs e)
+        {
+            PicEditCust.Image = Resources.EditCust1;
+        }
 
         private void PicBoxClose_Click(object sender, EventArgs e)
         {
@@ -96,6 +106,7 @@ namespace Latihan_POS
             PicBoxCust.Hide();
             PicBoxClose.Hide();
             PicBoxSup.Hide();
+            PicEditCust.Hide();
             FormRegis.ShowDialog();
             
            
@@ -116,6 +127,7 @@ namespace Latihan_POS
             PicBoxCust.Hide();
             PicBoxClose.Hide();
             PicBoxSup.Hide();
+            PicEditCust.Hide();
             formAbout.ShowDialog();
         }
 
@@ -129,6 +141,7 @@ namespace Latihan_POS
             PicBoxCust.Hide();
             PicBoxClose.Hide();
             PicBoxSup.Hide();
+            PicEditCust.Hide();
             FormCust.ShowDialog();
         }
 
@@ -142,9 +155,27 @@ namespace Latihan_POS
             PicBoxCust.Hide();
             PicBoxClose.Hide();
             PicBoxSup.Hide();
+            PicEditCust.Hide();
             FormSup.ShowDialog();
 
         }
+
+        private void PicEditCust_Click(object sender, EventArgs e)
+        {
+            FormEditCustomer FormEditCust = new FormEditCustomer();
+            PicBox2.Hide();
+            PicBox4.Hide();
+            PicBox.Hide();
+            PicBox1.Hide();
+            PicBoxCust.Hide();
+            PicBoxClose.Hide();
+            PicBoxSup.Hide();
+            PicEditCust.Hide();
+            FormEditCust.ShowDialog();
+            
+        }
+
+        
 
         
        

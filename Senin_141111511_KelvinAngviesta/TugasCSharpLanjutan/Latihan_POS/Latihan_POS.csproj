@@ -46,9 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllClass\ClassCari.cs" />
     <Compile Include="AllClass\RegisCustomer.cs" />
     <Compile Include="AllClass\RegisBarang.cs" />
     <Compile Include="AllClass\RegisSuplier.cs" />
+    <Compile Include="FormEdit\FormEditCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdit\FormEditCustomer.Designer.cs">
+      <DependentUpon>FormEditCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMenu\FormRegisSupplier.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +88,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormEdit\FormEditCustomer.resx">
+      <DependentUpon>FormEditCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMenu\FormAbout.resx">
       <DependentUpon>FormAbout.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,8 +174,12 @@
   <ItemGroup>
     <None Include="Resources\IconClosed2.png" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="FormEdit\" />
+    <None Include="Resources\EditCust1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditCust2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

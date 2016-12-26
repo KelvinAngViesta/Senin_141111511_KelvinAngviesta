@@ -55,9 +55,9 @@
             // 
             this.BtnKeluar.BackColor = System.Drawing.Color.Yellow;
             this.BtnKeluar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnKeluar.Location = new System.Drawing.Point(276, 367);
+            this.BtnKeluar.Location = new System.Drawing.Point(276, 366);
             this.BtnKeluar.Name = "BtnKeluar";
-            this.BtnKeluar.Size = new System.Drawing.Size(75, 23);
+            this.BtnKeluar.Size = new System.Drawing.Size(75, 26);
             this.BtnKeluar.TabIndex = 29;
             this.BtnKeluar.Text = "Keluar";
             this.BtnKeluar.UseVisualStyleBackColor = false;
@@ -67,9 +67,9 @@
             // 
             this.BtnCancel.BackColor = System.Drawing.Color.Yellow;
             this.BtnCancel.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCancel.Location = new System.Drawing.Point(276, 335);
+            this.BtnCancel.Location = new System.Drawing.Point(276, 334);
             this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.Size = new System.Drawing.Size(75, 23);
+            this.BtnCancel.Size = new System.Drawing.Size(75, 26);
             this.BtnCancel.TabIndex = 28;
             this.BtnCancel.Text = "Cancel";
             this.BtnCancel.UseVisualStyleBackColor = false;
@@ -79,9 +79,9 @@
             // 
             this.BtnSimpan.BackColor = System.Drawing.Color.Yellow;
             this.BtnSimpan.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSimpan.Location = new System.Drawing.Point(195, 335);
+            this.BtnSimpan.Location = new System.Drawing.Point(195, 334);
             this.BtnSimpan.Name = "BtnSimpan";
-            this.BtnSimpan.Size = new System.Drawing.Size(75, 23);
+            this.BtnSimpan.Size = new System.Drawing.Size(75, 26);
             this.BtnSimpan.TabIndex = 27;
             this.BtnSimpan.Text = "Simpan";
             this.BtnSimpan.UseVisualStyleBackColor = false;

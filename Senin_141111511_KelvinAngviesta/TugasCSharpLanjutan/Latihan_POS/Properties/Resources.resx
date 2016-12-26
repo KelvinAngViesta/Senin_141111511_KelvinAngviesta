@@ -136,6 +136,12 @@
   <data name="AddRegisBarang2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AddRegisBarang2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="EditCust1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditCust1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditCust2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditCust2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="IconClosed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconClosed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

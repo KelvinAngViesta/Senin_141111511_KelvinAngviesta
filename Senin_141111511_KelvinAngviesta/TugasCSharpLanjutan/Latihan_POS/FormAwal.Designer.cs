@@ -39,6 +39,7 @@
             this.PicBoxCust = new System.Windows.Forms.PictureBox();
             this.PicBoxClose = new System.Windows.Forms.PictureBox();
             this.PicBoxSup = new System.Windows.Forms.PictureBox();
+            this.PicEditCust = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PicBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBox4)).BeginInit();
@@ -46,12 +47,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxCust)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxSup)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicEditCust)).BeginInit();
             this.SuspendLayout();
             // 
             // barangToolStripMenuItem
             // 
             this.barangToolStripMenuItem.Name = "barangToolStripMenuItem";
-            this.barangToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.barangToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.barangToolStripMenuItem.Text = "Barang";
             // 
             // registrationToolStripMenuItem
@@ -66,7 +68,7 @@
             // custToolStripMenuItem
             // 
             this.custToolStripMenuItem.Name = "custToolStripMenuItem";
-            this.custToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.custToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.custToolStripMenuItem.Text = "Customer";
             // 
             // PicBox2
@@ -151,6 +153,18 @@
             this.PicBoxSup.MouseLeave += new System.EventHandler(this.PicBoxSup_MouseLeave);
             this.PicBoxSup.MouseHover += new System.EventHandler(this.PicBoxSup_MouseHover);
             // 
+            // PicEditCust
+            // 
+            this.PicEditCust.Image = ((System.Drawing.Image)(resources.GetObject("PicEditCust.Image")));
+            this.PicEditCust.Location = new System.Drawing.Point(566, 12);
+            this.PicEditCust.Name = "PicEditCust";
+            this.PicEditCust.Size = new System.Drawing.Size(27, 29);
+            this.PicEditCust.TabIndex = 14;
+            this.PicEditCust.TabStop = false;
+            this.PicEditCust.Click += new System.EventHandler(this.PicEditCust_Click);
+            this.PicEditCust.MouseLeave += new System.EventHandler(this.PicEditCust_MouseLeave);
+            this.PicEditCust.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
+            // 
             // FormAwal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -159,6 +173,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(734, 499);
+            this.Controls.Add(this.PicEditCust);
             this.Controls.Add(this.PicBoxSup);
             this.Controls.Add(this.PicBoxClose);
             this.Controls.Add(this.PicBoxCust);
@@ -179,6 +194,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxCust)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxSup)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicEditCust)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -195,6 +211,7 @@
         private System.Windows.Forms.PictureBox PicBoxCust;
         private System.Windows.Forms.PictureBox PicBoxClose;
         private System.Windows.Forms.PictureBox PicBoxSup;
+        private System.Windows.Forms.PictureBox PicEditCust;
     }
 }
 
