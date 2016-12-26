@@ -13,8 +13,6 @@ namespace Latihan_POS.AllClass
     class RegisBarang
     {
         static MySqlConnection Connection = new MySqlConnection("Server=localhost;Database=database_latihan_pos;Uid=root;password=;");
-
-        MySqlCommand cmd;
         
         public int isNumber(String number)
         {

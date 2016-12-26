@@ -28,185 +28,118 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TxtNamaBrg = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCustomer));
+            this.TxtAlamatCust = new System.Windows.Forms.TextBox();
             this.BtnKeluar = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
             this.BtnSimpan = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.TxtHrgJual = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.TxtHrgBrg = new System.Windows.Forms.TextBox();
-            this.TxtJlhBrg = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.TxtKodeBrg = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.TxtIdBrg = new System.Windows.Forms.TextBox();
+            this.TxtEmailCust = new System.Windows.Forms.TextBox();
+            this.TxHpCust = new System.Windows.Forms.TextBox();
+            this.TxtNamaCust = new System.Windows.Forms.TextBox();
+            this.TxtKodeCust = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // TxtNamaBrg
+            // TxtAlamatCust
             // 
-            this.TxtNamaBrg.Location = new System.Drawing.Point(204, 169);
-            this.TxtNamaBrg.Name = "TxtNamaBrg";
-            this.TxtNamaBrg.Size = new System.Drawing.Size(100, 20);
-            this.TxtNamaBrg.TabIndex = 47;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(83, 169);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(111, 18);
-            this.label7.TabIndex = 46;
-            this.label7.Text = "Nama Barang     :";
+            this.TxtAlamatCust.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtAlamatCust.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtAlamatCust.Location = new System.Drawing.Point(195, 202);
+            this.TxtAlamatCust.Multiline = true;
+            this.TxtAlamatCust.Name = "TxtAlamatCust";
+            this.TxtAlamatCust.Size = new System.Drawing.Size(156, 23);
+            this.TxtAlamatCust.TabIndex = 47;
             // 
             // BtnKeluar
             // 
-            this.BtnKeluar.Location = new System.Drawing.Point(229, 321);
+            this.BtnKeluar.BackColor = System.Drawing.Color.Yellow;
+            this.BtnKeluar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnKeluar.Location = new System.Drawing.Point(276, 333);
             this.BtnKeluar.Name = "BtnKeluar";
-            this.BtnKeluar.Size = new System.Drawing.Size(75, 23);
+            this.BtnKeluar.Size = new System.Drawing.Size(75, 26);
             this.BtnKeluar.TabIndex = 45;
             this.BtnKeluar.Text = "Keluar";
-            this.BtnKeluar.UseVisualStyleBackColor = true;
+            this.BtnKeluar.UseVisualStyleBackColor = false;
+            this.BtnKeluar.Click += new System.EventHandler(this.BtnKeluar_Click);
             // 
             // BtnCancel
             // 
-            this.BtnCancel.Location = new System.Drawing.Point(229, 292);
+            this.BtnCancel.BackColor = System.Drawing.Color.Yellow;
+            this.BtnCancel.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCancel.Location = new System.Drawing.Point(276, 302);
             this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.Size = new System.Drawing.Size(75, 23);
+            this.BtnCancel.Size = new System.Drawing.Size(75, 26);
             this.BtnCancel.TabIndex = 44;
             this.BtnCancel.Text = "Cancel";
-            this.BtnCancel.UseVisualStyleBackColor = true;
+            this.BtnCancel.UseVisualStyleBackColor = false;
+            this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // BtnSimpan
             // 
-            this.BtnSimpan.Location = new System.Drawing.Point(143, 292);
+            this.BtnSimpan.BackColor = System.Drawing.Color.Yellow;
+            this.BtnSimpan.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSimpan.Location = new System.Drawing.Point(195, 302);
             this.BtnSimpan.Name = "BtnSimpan";
-            this.BtnSimpan.Size = new System.Drawing.Size(75, 23);
+            this.BtnSimpan.Size = new System.Drawing.Size(75, 26);
             this.BtnSimpan.TabIndex = 43;
             this.BtnSimpan.Text = "Simpan";
-            this.BtnSimpan.UseVisualStyleBackColor = true;
+            this.BtnSimpan.UseVisualStyleBackColor = false;
+            this.BtnSimpan.Click += new System.EventHandler(this.BtnSimpan_Click);
             // 
-            // label6
+            // TxtEmailCust
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(83, 255);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(110, 18);
-            this.label6.TabIndex = 42;
-            this.label6.Text = "Harga Jual           :";
+            this.TxtEmailCust.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtEmailCust.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEmailCust.Location = new System.Drawing.Point(195, 266);
+            this.TxtEmailCust.Multiline = true;
+            this.TxtEmailCust.Name = "TxtEmailCust";
+            this.TxtEmailCust.Size = new System.Drawing.Size(156, 23);
+            this.TxtEmailCust.TabIndex = 39;
             // 
-            // TxtHrgJual
+            // TxHpCust
             // 
-            this.TxtHrgJual.Location = new System.Drawing.Point(204, 255);
-            this.TxtHrgJual.Name = "TxtHrgJual";
-            this.TxtHrgJual.Size = new System.Drawing.Size(100, 20);
-            this.TxtHrgJual.TabIndex = 41;
+            this.TxHpCust.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxHpCust.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxHpCust.Location = new System.Drawing.Point(195, 234);
+            this.TxHpCust.Multiline = true;
+            this.TxHpCust.Name = "TxHpCust";
+            this.TxHpCust.Size = new System.Drawing.Size(156, 23);
+            this.TxHpCust.TabIndex = 38;
             // 
-            // label5
+            // TxtNamaCust
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(83, 228);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 18);
-            this.label5.TabIndex = 40;
-            this.label5.Text = "Harga HPP          :";
+            this.TxtNamaCust.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtNamaCust.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNamaCust.Location = new System.Drawing.Point(195, 168);
+            this.TxtNamaCust.Multiline = true;
+            this.TxtNamaCust.Name = "TxtNamaCust";
+            this.TxtNamaCust.Size = new System.Drawing.Size(156, 23);
+            this.TxtNamaCust.TabIndex = 36;
             // 
-            // TxtHrgBrg
+            // TxtKodeCust
             // 
-            this.TxtHrgBrg.Location = new System.Drawing.Point(204, 227);
-            this.TxtHrgBrg.Name = "TxtHrgBrg";
-            this.TxtHrgBrg.Size = new System.Drawing.Size(100, 20);
-            this.TxtHrgBrg.TabIndex = 39;
-            // 
-            // TxtJlhBrg
-            // 
-            this.TxtJlhBrg.Location = new System.Drawing.Point(204, 197);
-            this.TxtJlhBrg.Name = "TxtJlhBrg";
-            this.TxtJlhBrg.Size = new System.Drawing.Size(100, 20);
-            this.TxtJlhBrg.TabIndex = 38;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(84, 197);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 18);
-            this.label4.TabIndex = 37;
-            this.label4.Text = "Jumlah Barang  :";
-            // 
-            // TxtKodeBrg
-            // 
-            this.TxtKodeBrg.Location = new System.Drawing.Point(204, 142);
-            this.TxtKodeBrg.Name = "TxtKodeBrg";
-            this.TxtKodeBrg.Size = new System.Drawing.Size(100, 20);
-            this.TxtKodeBrg.TabIndex = 36;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(83, 142);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 18);
-            this.label3.TabIndex = 35;
-            this.label3.Text = "Kode Barang      :";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(85, 114);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 18);
-            this.label2.TabIndex = 34;
-            this.label2.Text = "ID Barang           :";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(121, 74);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 26);
-            this.label1.TabIndex = 33;
-            this.label1.Text = "Registrasi";
-            // 
-            // TxtIdBrg
-            // 
-            this.TxtIdBrg.Location = new System.Drawing.Point(204, 114);
-            this.TxtIdBrg.Name = "TxtIdBrg";
-            this.TxtIdBrg.Size = new System.Drawing.Size(100, 20);
-            this.TxtIdBrg.TabIndex = 32;
+            this.TxtKodeCust.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtKodeCust.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtKodeCust.Location = new System.Drawing.Point(195, 135);
+            this.TxtKodeCust.Multiline = true;
+            this.TxtKodeCust.Name = "TxtKodeCust";
+            this.TxtKodeCust.Size = new System.Drawing.Size(156, 23);
+            this.TxtKodeCust.TabIndex = 32;
             // 
             // FormCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(384, 495);
-            this.Controls.Add(this.TxtNamaBrg);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.TxtAlamatCust);
             this.Controls.Add(this.BtnKeluar);
             this.Controls.Add(this.BtnCancel);
             this.Controls.Add(this.BtnSimpan);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.TxtHrgJual);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.TxtHrgBrg);
-            this.Controls.Add(this.TxtJlhBrg);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.TxtKodeBrg);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.TxtIdBrg);
+            this.Controls.Add(this.TxtEmailCust);
+            this.Controls.Add(this.TxHpCust);
+            this.Controls.Add(this.TxtNamaCust);
+            this.Controls.Add(this.TxtKodeCust);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -219,21 +152,13 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox TxtNamaBrg;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox TxtAlamatCust;
         private System.Windows.Forms.Button BtnKeluar;
         private System.Windows.Forms.Button BtnCancel;
         private System.Windows.Forms.Button BtnSimpan;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox TxtHrgJual;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox TxtHrgBrg;
-        private System.Windows.Forms.TextBox TxtJlhBrg;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox TxtKodeBrg;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox TxtIdBrg;
+        private System.Windows.Forms.TextBox TxtEmailCust;
+        private System.Windows.Forms.TextBox TxHpCust;
+        private System.Windows.Forms.TextBox TxtNamaCust;
+        private System.Windows.Forms.TextBox TxtKodeCust;
     }
 }

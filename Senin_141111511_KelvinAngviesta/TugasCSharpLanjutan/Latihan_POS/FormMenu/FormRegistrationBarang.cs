@@ -72,5 +72,7 @@ namespace Latihan_POS
             formregis.Close();
         }
 
+      
+
     }
 }

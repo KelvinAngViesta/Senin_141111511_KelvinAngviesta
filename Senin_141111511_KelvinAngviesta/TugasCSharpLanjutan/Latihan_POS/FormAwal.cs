@@ -9,16 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using Latihan_POS.Properties;
+using Latihan_POS.FormMenu;
 
 namespace Latihan_POS
 {
     public partial class FormAwal : Form
     {
-        //koneksi
-        String myConnectionString = "Server=localhost;Database=database_project;Uid=root;Pwd='';";
-        MySqlConnection conn;
-        MySqlCommand cmd;
-        MySqlDataReader reader;
         public FormAwal()
         {
             InitializeComponent();
@@ -28,7 +24,6 @@ namespace Latihan_POS
         
         private void FormAwal_Load(object sender, EventArgs e)
         {
-            conn = new MySqlConnection(myConnectionString);
         }
 
 
@@ -63,10 +58,33 @@ namespace Latihan_POS
         {
             PicBoxCust.Image = Resources.AddCustomer2;
         }
+        private void PicBoxClose_MouseHover(object sender, EventArgs e)
+        {
+            PicBoxClose.Image = Resources.IconClosed2;
+        }
+
+        private void PicBoxClose_MouseLeave(object sender, EventArgs e)
+        {
+            PicBoxClose.Image = Resources.IconClosed;
+        }
 
         private void PicBoxCust_MouseLeave(object sender, EventArgs e)
         {
             PicBoxCust.Image = Resources.AddCustomer1;
+        }
+        private void PicBoxSup_MouseHover(object sender, EventArgs e)
+        {
+            PicBoxSup.Image = Resources.Supplier2;
+        }
+
+        private void PicBoxSup_MouseLeave(object sender, EventArgs e)
+        {
+            PicBoxSup.Image = Resources.Supplier1;
+        }
+
+        private void PicBoxClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
         private void PicBox1_Click(object sender, EventArgs e)
         {
@@ -75,6 +93,9 @@ namespace Latihan_POS
             PicBox4.Hide();
             PicBox.Hide();
             PicBox1.Hide();
+            PicBoxCust.Hide();
+            PicBoxClose.Hide();
+            PicBoxSup.Hide();
             FormRegis.ShowDialog();
             
            
@@ -82,19 +103,53 @@ namespace Latihan_POS
 
         private void PicBox_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void PicBox4_Click(object sender, EventArgs e)
+        {
+            FormAbout formAbout = new FormAbout();
+            PicBox2.Hide();
+            PicBox4.Hide();
+            PicBox.Hide();
+            PicBox1.Hide();
+            PicBoxCust.Hide();
+            PicBoxClose.Hide();
+            PicBoxSup.Hide();
+            formAbout.ShowDialog();
+        }
+
+        private void PicBoxCust_Click(object sender, EventArgs e)
+        {
             FormCustomer FormCust = new FormCustomer();
             PicBox2.Hide();
             PicBox4.Hide();
             PicBox.Hide();
             PicBox1.Hide();
+            PicBoxCust.Hide();
+            PicBoxClose.Hide();
+            PicBoxSup.Hide();
             FormCust.ShowDialog();
         }
 
-        private void PicBox4_Click(object sender, EventArgs e)
+        private void PicBoxSup_Click(object sender, EventArgs e)
         {
-           
+            FormRegisSupplier FormSup = new FormRegisSupplier();
+            PicBox2.Hide();
+            PicBox4.Hide();
+            PicBox.Hide();
+            PicBox1.Hide();
+            PicBoxCust.Hide();
+            PicBoxClose.Hide();
+            PicBoxSup.Hide();
+            FormSup.ShowDialog();
+
         }
 
+        
+       
+
+     
        
         }
     }

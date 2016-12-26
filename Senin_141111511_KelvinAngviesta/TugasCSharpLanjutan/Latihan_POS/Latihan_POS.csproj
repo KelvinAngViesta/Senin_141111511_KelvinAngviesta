@@ -46,7 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllClass\RegisCustomer.cs" />
     <Compile Include="AllClass\RegisBarang.cs" />
+    <Compile Include="AllClass\RegisSuplier.cs" />
+    <Compile Include="FormMenu\FormRegisSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu\FormRegisSupplier.Designer.cs">
+      <DependentUpon>FormRegisSupplier.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMenu\FormAbout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu\FormCustomer.resx">
       <DependentUpon>FormCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu\FormRegisSupplier.resx">
+      <DependentUpon>FormRegisSupplier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu\FormRegistrationBarang.resx">
       <DependentUpon>FormRegistrationBarang.cs</DependentUpon>
@@ -134,6 +145,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AddCustomer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close3a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close3b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Supplier1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Supplier2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconClosed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconClosed2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FormEdit\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
