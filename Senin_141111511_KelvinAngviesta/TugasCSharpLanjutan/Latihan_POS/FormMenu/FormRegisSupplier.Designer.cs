@@ -65,7 +65,7 @@
             // 
             this.BtnCancel.BackColor = System.Drawing.Color.Yellow;
             this.BtnCancel.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCancel.Location = new System.Drawing.Point(274, 300);
+            this.BtnCancel.Location = new System.Drawing.Point(274, 301);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Size = new System.Drawing.Size(75, 25);
             this.BtnCancel.TabIndex = 58;
@@ -77,7 +77,7 @@
             // 
             this.BtnSimpan.BackColor = System.Drawing.Color.Yellow;
             this.BtnSimpan.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSimpan.Location = new System.Drawing.Point(193, 300);
+            this.BtnSimpan.Location = new System.Drawing.Point(195, 301);
             this.BtnSimpan.Name = "BtnSimpan";
             this.BtnSimpan.Size = new System.Drawing.Size(75, 25);
             this.BtnSimpan.TabIndex = 57;
@@ -143,7 +143,6 @@
             this.Name = "FormRegisSupplier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.FormRegisSupplier_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

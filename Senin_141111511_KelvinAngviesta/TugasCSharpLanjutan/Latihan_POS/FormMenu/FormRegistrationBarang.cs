@@ -44,7 +44,7 @@ namespace Latihan_POS
             }
             try
             {
-                RegisBarang regisbarang = new RegisBarang();
+                RegisAllitem regisbarang = new RegisAllitem();
                 regisbarang.TambahBarang(IdBarang, KodeBarang, NamaBarang, HargaHPP, HargaJual, JlhBarang);
             }
             catch (Exception)

@@ -46,10 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllClass\ClassCari.cs" />
-    <Compile Include="AllClass\RegisCustomer.cs" />
-    <Compile Include="AllClass\RegisBarang.cs" />
-    <Compile Include="AllClass\RegisSuplier.cs" />
+    <Compile Include="AllClass\CariTabel.cs" />
+    <Compile Include="AllClass\EditAll.cs" />
+    <Compile Include="AllClass\RegisAllitem.cs" />
     <Compile Include="FormEdit\FormEditCustomer.cs">
       <SubType>Form</SubType>
     </Compile>

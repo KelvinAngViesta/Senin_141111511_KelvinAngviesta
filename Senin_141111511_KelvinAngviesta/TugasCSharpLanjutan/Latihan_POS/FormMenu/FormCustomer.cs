@@ -40,8 +40,8 @@ namespace Latihan_POS
             }
             try
             {
-                RegisCustomer regiscust = new RegisCustomer();
-                regiscust.TambahBarang(KodeCust, NamaCust,AlamatCust,HpCust, EmailCust);
+                RegisAllitem regisAllitem = new RegisAllitem();
+                regisAllitem.TambahCust(KodeCust, NamaCust,AlamatCust,HpCust, EmailCust);
             }
             catch (Exception)
             {

@@ -37,8 +37,8 @@ namespace Latihan_POS.FormMenu
             }
             try
             {
-                RegisSuplier regisSup = new RegisSuplier();
-                regisSup.TambahRegiSup(KodeSup, NamaSup, AlamatSup, HpSup, EmailSup);
+                RegisAllitem regisAllitem = new RegisAllitem();
+                regisAllitem.TambahRegiSup(KodeSup, NamaSup, AlamatSup, HpSup, EmailSup);
             }
             catch (Exception)
             {
@@ -46,10 +46,6 @@ namespace Latihan_POS.FormMenu
             }
         }
 
-        private void FormRegisSupplier_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void BtnCancel_Click(object sender, EventArgs e)
         {
