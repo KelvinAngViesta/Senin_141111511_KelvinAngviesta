@@ -33,19 +33,20 @@ namespace Latihan_POS.AllClass
             }
             return 0;
         }
-        public void editCariBrg(string IdBarang,string KodeBrg,string NamaBrg,string JlhBrg,string HargaHpp,string HargaJual)
+        public void editCariBrg(string Colections,string IdBarang,string KodeBrg,string NamaBrg,string JlhBrg,string HargaHpp,string HargaJual)
         {
             conn = new MySqlConnection(connString);
-             if(IdBarang == "Barang")
+            if (Colections == "Barang")
              {
                  try
                  {
 
                      conn.Open();
+                     
                      DateTime now = DateTime.Now;
                      String DateBrgNow = now.ToString("yyyy/MM/dd HH:mm:ss");
-                     String sql = "UPDATE tblbarang SET id='" + IdBarang + "'" + "," + "kode='" + KodeBrg+ "'" + "," + "nama='" + NamaBrg+ "'" + "," + "jumlahAwal='" + JlhBrg + "'" + "," + "hargaHpp= '" + Convert.ToDecimal(HargaHpp) + "'" + "," + "hargajual='" + Convert.ToDecimal(HargaJual) + "'" + "," + "tglupdatebarang='" + DateBrgNow + "'" + "WHERE id='" + IdBarang+ "'";
-                     MessageBox.Show(sql);
+                     String sql = "UPDATE tblbarang SET kode='" + KodeBrg+ "'" + "," + "nama='" + NamaBrg+ "'" + "," + "jumlahAwal='" + JlhBrg + "'" + "," + "hargaHpp= '" + Convert.ToDecimal(HargaHpp) + "'" + "," + "hargajual='" + Convert.ToDecimal(HargaJual) + "'" + "," + "tglupdatebarang='" + DateBrgNow + "'" + "WHERE id='" + IdBarang+ "'";
+                     //MessageBox.Show(sql);
                      cmd = new MySqlCommand(sql, conn);
                      cmd.ExecuteNonQuery();
                      MessageBox.Show("Produk barang berhasil diubah", "Edited");    
@@ -126,7 +127,7 @@ namespace Latihan_POS.AllClass
                         String DateSupNow = now.ToString("yyyy/MM/dd HH:mm:ss");
                         String sql = "UPDATE tblsupplier SET KodeSup='" + KodeSup + "'" + "," + "NamaSup='" + NamaSup + "'" + "," + "AlamatSup= '" +AlamatSup + "'" + "," + "HpSup='" + HpSup + "'" + "," +"EmailSup='" +EmailSup + "'" + "," + "DateUpdate='" + DateSupNow + "'" + "WHERE KodeSup='" + KodeSup + "'";
                         cmd = new MySqlCommand(sql, conn);
-                        MessageBox.Show(sql);
+                       // MessageBox.Show(sql);
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Tabel Supplier sudah berhasil diubah", "Edited");
                     }

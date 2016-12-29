@@ -35,3 +35,4 @@ D:\Kuliah\CsharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Lat
 D:\Kangviesta\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormMenu.FormRegisSupplier.resources
 D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormMenu.FormRegisSupplier.resources
 D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormEdit.FormEditCustomer.resources
+D:\Kangviesta\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormEdit.FormEditCustomer.resources

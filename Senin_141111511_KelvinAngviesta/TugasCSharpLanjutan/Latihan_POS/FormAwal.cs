@@ -21,12 +21,6 @@ namespace Latihan_POS
             InitializeComponent();
         }
        
-        
-        
-        private void FormAwal_Load(object sender, EventArgs e)
-        {
-        }
-
 
         private void PicBox1_MouseHover(object sender, EventArgs e)
         {
@@ -84,12 +78,12 @@ namespace Latihan_POS
         }
         private void pictureBox1_MouseHover(object sender, EventArgs e)
         {
-            PicEditCust.Image = Resources.EditCust2;
+            PicEditCust.Image = Resources.EdiitAll2;
         }
 
         private void PicEditCust_MouseLeave(object sender, EventArgs e)
         {
-            PicEditCust.Image = Resources.EditCust1;
+            PicEditCust.Image = Resources.EditAll1;
         }
 
         private void PicBoxClose_Click(object sender, EventArgs e)
@@ -112,10 +106,6 @@ namespace Latihan_POS
            
         }
 
-        private void PicBox_Click(object sender, EventArgs e)
-        {
-            
-        }
 
         private void PicBox4_Click(object sender, EventArgs e)
         {
@@ -173,6 +163,26 @@ namespace Latihan_POS
             PicEditCust.Hide();
             FormEditCust.ShowDialog();
             
+        }
+
+        private void pictureBox1_MouseHover_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormAwal_Load(object sender, EventArgs e)
+        {
+
         }
 
         

@@ -27,7 +27,7 @@ namespace Latihan_POS.AllClass
                     String sql = "SELECT * FROM tblbarang where id = '" + kode + "'";
                     cmd = new MySqlCommand(sql, conn);
                     Nilai = cmd.ExecuteReader().HasRows;
-                    MessageBox.Show(sql);
+                    //MessageBox.Show(sql);
                 }
                 catch (Exception ex)
                 {
@@ -45,7 +45,7 @@ namespace Latihan_POS.AllClass
                     conn.Open();
                     String sql = "SELECT * FROM tblcustomer where KodeCust = '" + kode + "'";
                     cmd = new MySqlCommand(sql, conn);
-                    MessageBox.Show(sql);
+                    //MessageBox.Show(sql);
                     Nilai = cmd.ExecuteReader().HasRows;
                 }
                 catch (Exception ex)
@@ -64,7 +64,7 @@ namespace Latihan_POS.AllClass
                     conn.Open();
                     String sql = "SELECT * FROM tblsupplier where KodeSup = '" + kode + "'";
                     cmd = new MySqlCommand(sql, conn);
-                    MessageBox.Show(sql);
+                    //MessageBox.Show(sql);
                     Nilai = cmd.ExecuteReader().HasRows;
                 }
                 catch (Exception ex)

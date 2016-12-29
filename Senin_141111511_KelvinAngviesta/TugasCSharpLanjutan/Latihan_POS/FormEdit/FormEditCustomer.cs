@@ -33,7 +33,8 @@ namespace Latihan_POS.FormEdit
         {
             PnlEditCust.Visible = false;
             PnlEditBarang.Visible = false;
-            PnlEditSuppl.Visible = false;
+            PnlSuppEdits.Visible = false;
+            PicBoxEdit.Visible = false;
             CmboBoxItem.SelectedIndex = 0;
             if (CmboBoxItem.SelectedItem.ToString() == "Customer")
             {
@@ -54,11 +55,12 @@ namespace Latihan_POS.FormEdit
                 bool hasil = cariTabels.CekAllKode(id, nama);
                 if (kode.Trim() != "" && hasil)
                 {
+                    PicBoxEdit.Visible = true;
                     PnlEditBarang.Visible = true;
                     TxtEditBarangId.Text = kode;
                     MessageBox.Show("Kode Barang Bersifat Tetap");
                     PnlEditCust.Visible = false;
-                    PnlEditSuppl.Visible = false;
+                    PnlSuppEdits.Visible = false;
                 }
                 else
                 {
@@ -74,10 +76,12 @@ namespace Latihan_POS.FormEdit
                 bool hasil = cariTabels.CekAllKode(kode, nama);
                 if (kode.Trim() != "" && hasil)
                 {
+
                     PnlEditCust.Visible = true;
+                    PicBoxEdit.Visible = false;
                     TxtKodeEditCust.Text = kode;
                     PnlEditBarang.Visible = false;
-                    PnlEditSuppl.Visible = false;
+                    PnlSuppEdits.Visible = false;
                    
                 }
                 else
@@ -91,11 +95,15 @@ namespace Latihan_POS.FormEdit
                 string nama = CmboBoxItem.SelectedItem.ToString();
                 CariTabel cariTabels = new CariTabel();
                 bool hasil = cariTabels.CekAllKode(kode, nama);
-                MessageBox.Show(nama);
+                MessageBox.Show(kode);
+
+                PnlSuppEdits.Visible = true;
                 if (kode.Trim() != "" && hasil)
                 {
-                    PnlEditSuppl.Visible = true;
-                    TxtKodeSupp.Text = kode;
+
+                    PnlSuppEdits.Visible = true;
+                    PicBoxEdit.Visible = false;
+                    TxtKodeSuppL.Text = kode;
                     PnlEditCust.Visible = false;
                     PnlEditBarang.Visible = false;
          
@@ -112,6 +120,14 @@ namespace Latihan_POS.FormEdit
 
         private void BtnSimpan_Click(object sender, EventArgs e)
         {
+            foreach (Control ctrl in this.Controls)
+            {
+                if (ctrl is TextBox && ctrl.Name != "txtId" && ctrl.Text.Trim() == "")
+                {
+                    MessageBox.Show("Data tidak boleh ada yang kosong.");
+                    return;
+                }
+            }
             string id = CmboBoxItem.SelectedItem.ToString();
             EditAll editCust = new EditAll();
             editCust.editCustomer(TxtEditBarangId.Text, TxtNamaEditCust.Text, TxtAlamatEditCust.Text, TxtEditHp.Text, TxtEditEmailCust.Text);
@@ -119,7 +135,7 @@ namespace Latihan_POS.FormEdit
 
         private void BtnCancel_Click(object sender, EventArgs e)
         {
-            foreach (Control ctrl in this.Controls)
+            foreach (Control ctrl in PnlEditCust.Controls)
             {
                 if (ctrl is TextBox)
                 {
@@ -139,15 +155,23 @@ namespace Latihan_POS.FormEdit
 
         private void BtnSimpanEditBarang_Click(object sender, EventArgs e)
         {
+            foreach (Control ctrl in this.Controls)
+            {
+                if (ctrl is TextBox && ctrl.Name != "txtId" && ctrl.Text.Trim() == "")
+                {
+                    MessageBox.Show("Data tidak boleh ada yang kosong.");
+                    return;
+                }
+            }
             string id = CmboBoxItem.SelectedItem.ToString();
             EditAll editBrg = new EditAll();
-            editBrg.editCariBrg(TxtEditBarangId.Text, TxtKodeBrgEdit.Text, TxtNamaEditBrg.Text, TxtJmlahBrgEdit.Text, TxtHargaHppEdit.Text, TxtHargaJualEdit.Text);
-       
+            editBrg.editCariBrg(id,TxtEditBarangId.Text, TxtKodeBrgEdit.Text, TxtNamaEditBrg.Text, TxtJmlahBrgEdit.Text, TxtHargaHppEdit.Text, TxtHargaJualEdit.Text);
+          
          }
 
         private void BtnCancelEdit_Click(object sender, EventArgs e)
         {
-            foreach (Control ctrl in this.Controls)
+            foreach (Control ctrl in PnlEditBarang.Controls)
             {
                 if (ctrl is TextBox)
                 {
@@ -156,25 +180,36 @@ namespace Latihan_POS.FormEdit
             }
         }
 
-        private void BtnCancelSupp_Click(object sender, EventArgs e)
+        
+
+        private void BtnSimpanSuppL_Click(object sender, EventArgs e)
         {
             foreach (Control ctrl in this.Controls)
             {
-                if (ctrl is TextBox)
+                if (ctrl is TextBox && ctrl.Name != "txtId" && ctrl.Text.Trim() == "")
                 {
-                    ctrl.Text = "";
+                    MessageBox.Show("Data tidak boleh ada yang kosong.");
+                    return;
                 }
             }
-        }
-
-        private void BtnSmpanEditSupp_Click(object sender, EventArgs e)
-        {
-
             string Id = CmboBoxItem.SelectedItem.ToString();
             EditAll EditSup = new EditAll();
-            EditSup.editSupplier(TxtKodeSupp.Text, TxtNamaSupp.Text, TxtAlamatSupp.Text, TxtNoHpSupp.Text, TxtEmailSupp.Text);
+            EditSup.editSupplier(TxtKodeSuppL.Text, TxtNamaSupL.Text, TxtAlamatSuppL.Text,  TxtEmailSuppL.Text,TxtNoHpSuppL.Text);
             
         }
+
+        private void BtnCncelSuppl_Click(object sender, EventArgs e)
+        {
+            foreach (Control ctrl in PnlSuppEdits.Controls)
+            {
+                if (ctrl is TextBox)
+                {
+                    ctrl.Text = "";
+                }
+            }
+        }
+        
+
 
         
     }

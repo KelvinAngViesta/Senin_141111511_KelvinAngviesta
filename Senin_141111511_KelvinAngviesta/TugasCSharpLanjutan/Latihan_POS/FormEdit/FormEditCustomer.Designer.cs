@@ -42,26 +42,28 @@
             this.PnlEditCust = new System.Windows.Forms.Panel();
             this.PicBoxClose = new System.Windows.Forms.PictureBox();
             this.PnlEditBarang = new System.Windows.Forms.Panel();
-            this.TxtEditBarangId = new System.Windows.Forms.TextBox();
-            this.TxtKodeBrgEdit = new System.Windows.Forms.TextBox();
-            this.TxtNamaEditBrg = new System.Windows.Forms.TextBox();
-            this.TxtJmlahBrgEdit = new System.Windows.Forms.TextBox();
-            this.TxtHargaHppEdit = new System.Windows.Forms.TextBox();
-            this.TxtHargaJualEdit = new System.Windows.Forms.TextBox();
-            this.BtnSimpanEditBarang = new System.Windows.Forms.Button();
             this.BtnCancelEdit = new System.Windows.Forms.Button();
-            this.PnlEditSuppl = new System.Windows.Forms.Panel();
-            this.TxtKodeSupp = new System.Windows.Forms.TextBox();
-            this.TxtNamaSupp = new System.Windows.Forms.TextBox();
-            this.TxtAlamatSupp = new System.Windows.Forms.TextBox();
-            this.TxtNoHpSupp = new System.Windows.Forms.TextBox();
-            this.TxtEmailSupp = new System.Windows.Forms.TextBox();
-            this.BtnSmpanEditSupp = new System.Windows.Forms.Button();
-            this.BtnCancelSupp = new System.Windows.Forms.Button();
+            this.BtnSimpanEditBarang = new System.Windows.Forms.Button();
+            this.TxtHargaJualEdit = new System.Windows.Forms.TextBox();
+            this.TxtHargaHppEdit = new System.Windows.Forms.TextBox();
+            this.TxtJmlahBrgEdit = new System.Windows.Forms.TextBox();
+            this.TxtNamaEditBrg = new System.Windows.Forms.TextBox();
+            this.TxtKodeBrgEdit = new System.Windows.Forms.TextBox();
+            this.TxtEditBarangId = new System.Windows.Forms.TextBox();
+            this.PicBoxEdit = new System.Windows.Forms.PictureBox();
+            this.PnlSuppEdits = new System.Windows.Forms.Panel();
+            this.TxtKodeSuppL = new System.Windows.Forms.TextBox();
+            this.TxtNamaSupL = new System.Windows.Forms.TextBox();
+            this.TxtAlamatSuppL = new System.Windows.Forms.TextBox();
+            this.TxtNoHpSuppL = new System.Windows.Forms.TextBox();
+            this.TxtEmailSuppL = new System.Windows.Forms.TextBox();
+            this.BtnSimpanSuppL = new System.Windows.Forms.Button();
+            this.BtnCncelSuppl = new System.Windows.Forms.Button();
             this.PnlEditCust.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxClose)).BeginInit();
             this.PnlEditBarang.SuspendLayout();
-            this.PnlEditSuppl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBoxEdit)).BeginInit();
+            this.PnlSuppEdits.SuspendLayout();
             this.SuspendLayout();
             // 
             // TxtIdBarang
@@ -186,9 +188,9 @@
             this.PnlEditCust.Controls.Add(this.TxtAlamatEditCust);
             this.PnlEditCust.Controls.Add(this.TxtNamaEditCust);
             this.PnlEditCust.Controls.Add(this.TxtKodeEditCust);
-            this.PnlEditCust.Location = new System.Drawing.Point(1, 174);
+            this.PnlEditCust.Location = new System.Drawing.Point(4, 174);
             this.PnlEditCust.Name = "PnlEditCust";
-            this.PnlEditCust.Size = new System.Drawing.Size(382, 232);
+            this.PnlEditCust.Size = new System.Drawing.Size(371, 232);
             this.PnlEditCust.TabIndex = 2;
             // 
             // PicBoxClose
@@ -208,7 +210,6 @@
             // 
             this.PnlEditBarang.BackColor = System.Drawing.Color.Transparent;
             this.PnlEditBarang.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PnlEditBarang.BackgroundImage")));
-            this.PnlEditBarang.Controls.Add(this.PnlEditSuppl);
             this.PnlEditBarang.Controls.Add(this.BtnCancelEdit);
             this.PnlEditBarang.Controls.Add(this.BtnSimpanEditBarang);
             this.PnlEditBarang.Controls.Add(this.TxtHargaJualEdit);
@@ -217,85 +218,10 @@
             this.PnlEditBarang.Controls.Add(this.TxtNamaEditBrg);
             this.PnlEditBarang.Controls.Add(this.TxtKodeBrgEdit);
             this.PnlEditBarang.Controls.Add(this.TxtEditBarangId);
-            this.PnlEditBarang.Location = new System.Drawing.Point(1, 174);
+            this.PnlEditBarang.Location = new System.Drawing.Point(9, 175);
             this.PnlEditBarang.Name = "PnlEditBarang";
-            this.PnlEditBarang.Size = new System.Drawing.Size(382, 232);
+            this.PnlEditBarang.Size = new System.Drawing.Size(371, 232);
             this.PnlEditBarang.TabIndex = 14;
-            // 
-            // TxtEditBarangId
-            // 
-            this.TxtEditBarangId.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtEditBarangId.Enabled = false;
-            this.TxtEditBarangId.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEditBarangId.Location = new System.Drawing.Point(194, 4);
-            this.TxtEditBarangId.Multiline = true;
-            this.TxtEditBarangId.Name = "TxtEditBarangId";
-            this.TxtEditBarangId.Size = new System.Drawing.Size(153, 23);
-            this.TxtEditBarangId.TabIndex = 0;
-            // 
-            // TxtKodeBrgEdit
-            // 
-            this.TxtKodeBrgEdit.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtKodeBrgEdit.Enabled = false;
-            this.TxtKodeBrgEdit.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtKodeBrgEdit.Location = new System.Drawing.Point(194, 38);
-            this.TxtKodeBrgEdit.Multiline = true;
-            this.TxtKodeBrgEdit.Name = "TxtKodeBrgEdit";
-            this.TxtKodeBrgEdit.Size = new System.Drawing.Size(153, 23);
-            this.TxtKodeBrgEdit.TabIndex = 1;
-            this.TxtKodeBrgEdit.Text = "Kode Tidak Dapat diEdit";
-            // 
-            // TxtNamaEditBrg
-            // 
-            this.TxtNamaEditBrg.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtNamaEditBrg.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNamaEditBrg.Location = new System.Drawing.Point(194, 71);
-            this.TxtNamaEditBrg.Multiline = true;
-            this.TxtNamaEditBrg.Name = "TxtNamaEditBrg";
-            this.TxtNamaEditBrg.Size = new System.Drawing.Size(153, 23);
-            this.TxtNamaEditBrg.TabIndex = 2;
-            // 
-            // TxtJmlahBrgEdit
-            // 
-            this.TxtJmlahBrgEdit.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtJmlahBrgEdit.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtJmlahBrgEdit.Location = new System.Drawing.Point(194, 103);
-            this.TxtJmlahBrgEdit.Multiline = true;
-            this.TxtJmlahBrgEdit.Name = "TxtJmlahBrgEdit";
-            this.TxtJmlahBrgEdit.Size = new System.Drawing.Size(153, 23);
-            this.TxtJmlahBrgEdit.TabIndex = 3;
-            // 
-            // TxtHargaHppEdit
-            // 
-            this.TxtHargaHppEdit.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtHargaHppEdit.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHargaHppEdit.Location = new System.Drawing.Point(194, 136);
-            this.TxtHargaHppEdit.Multiline = true;
-            this.TxtHargaHppEdit.Name = "TxtHargaHppEdit";
-            this.TxtHargaHppEdit.Size = new System.Drawing.Size(153, 23);
-            this.TxtHargaHppEdit.TabIndex = 4;
-            // 
-            // TxtHargaJualEdit
-            // 
-            this.TxtHargaJualEdit.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtHargaJualEdit.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHargaJualEdit.Location = new System.Drawing.Point(193, 169);
-            this.TxtHargaJualEdit.Multiline = true;
-            this.TxtHargaJualEdit.Name = "TxtHargaJualEdit";
-            this.TxtHargaJualEdit.Size = new System.Drawing.Size(153, 23);
-            this.TxtHargaJualEdit.TabIndex = 5;
-            // 
-            // BtnSimpanEditBarang
-            // 
-            this.BtnSimpanEditBarang.BackColor = System.Drawing.Color.Yellow;
-            this.BtnSimpanEditBarang.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSimpanEditBarang.Location = new System.Drawing.Point(195, 203);
-            this.BtnSimpanEditBarang.Name = "BtnSimpanEditBarang";
-            this.BtnSimpanEditBarang.Size = new System.Drawing.Size(75, 26);
-            this.BtnSimpanEditBarang.TabIndex = 15;
-            this.BtnSimpanEditBarang.Text = "Simpan";
-            this.BtnSimpanEditBarang.UseVisualStyleBackColor = false;
-            this.BtnSimpanEditBarang.Click += new System.EventHandler(this.BtnSimpanEditBarang_Click);
             // 
             // BtnCancelEdit
             // 
@@ -309,94 +235,175 @@
             this.BtnCancelEdit.UseVisualStyleBackColor = false;
             this.BtnCancelEdit.Click += new System.EventHandler(this.BtnCancelEdit_Click);
             // 
-            // PnlEditSuppl
+            // BtnSimpanEditBarang
             // 
-            this.PnlEditSuppl.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PnlEditSuppl.BackgroundImage")));
-            this.PnlEditSuppl.Controls.Add(this.BtnCancelSupp);
-            this.PnlEditSuppl.Controls.Add(this.BtnSmpanEditSupp);
-            this.PnlEditSuppl.Controls.Add(this.TxtEmailSupp);
-            this.PnlEditSuppl.Controls.Add(this.TxtNoHpSupp);
-            this.PnlEditSuppl.Controls.Add(this.TxtAlamatSupp);
-            this.PnlEditSuppl.Controls.Add(this.TxtNamaSupp);
-            this.PnlEditSuppl.Controls.Add(this.TxtKodeSupp);
-            this.PnlEditSuppl.Location = new System.Drawing.Point(1, -219);
-            this.PnlEditSuppl.Name = "PnlEditSuppl";
-            this.PnlEditSuppl.Size = new System.Drawing.Size(382, 232);
-            this.PnlEditSuppl.TabIndex = 17;
+            this.BtnSimpanEditBarang.BackColor = System.Drawing.Color.Yellow;
+            this.BtnSimpanEditBarang.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSimpanEditBarang.Location = new System.Drawing.Point(195, 203);
+            this.BtnSimpanEditBarang.Name = "BtnSimpanEditBarang";
+            this.BtnSimpanEditBarang.Size = new System.Drawing.Size(75, 26);
+            this.BtnSimpanEditBarang.TabIndex = 15;
+            this.BtnSimpanEditBarang.Text = "Simpan";
+            this.BtnSimpanEditBarang.UseVisualStyleBackColor = false;
+            this.BtnSimpanEditBarang.Click += new System.EventHandler(this.BtnSimpanEditBarang_Click);
             // 
-            // TxtKodeSupp
+            // TxtHargaJualEdit
             // 
-            this.TxtKodeSupp.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtKodeSupp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtKodeSupp.Location = new System.Drawing.Point(193, 39);
-            this.TxtKodeSupp.Multiline = true;
-            this.TxtKodeSupp.Name = "TxtKodeSupp";
-            this.TxtKodeSupp.Size = new System.Drawing.Size(156, 23);
-            this.TxtKodeSupp.TabIndex = 0;
+            this.TxtHargaJualEdit.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtHargaJualEdit.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtHargaJualEdit.Location = new System.Drawing.Point(193, 169);
+            this.TxtHargaJualEdit.Multiline = true;
+            this.TxtHargaJualEdit.Name = "TxtHargaJualEdit";
+            this.TxtHargaJualEdit.Size = new System.Drawing.Size(153, 23);
+            this.TxtHargaJualEdit.TabIndex = 5;
             // 
-            // TxtNamaSupp
+            // TxtHargaHppEdit
             // 
-            this.TxtNamaSupp.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtNamaSupp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNamaSupp.Location = new System.Drawing.Point(193, 72);
-            this.TxtNamaSupp.Multiline = true;
-            this.TxtNamaSupp.Name = "TxtNamaSupp";
-            this.TxtNamaSupp.Size = new System.Drawing.Size(156, 23);
-            this.TxtNamaSupp.TabIndex = 1;
+            this.TxtHargaHppEdit.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtHargaHppEdit.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtHargaHppEdit.Location = new System.Drawing.Point(194, 136);
+            this.TxtHargaHppEdit.Multiline = true;
+            this.TxtHargaHppEdit.Name = "TxtHargaHppEdit";
+            this.TxtHargaHppEdit.Size = new System.Drawing.Size(153, 23);
+            this.TxtHargaHppEdit.TabIndex = 4;
             // 
-            // TxtAlamatSupp
+            // TxtJmlahBrgEdit
             // 
-            this.TxtAlamatSupp.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtAlamatSupp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAlamatSupp.Location = new System.Drawing.Point(193, 104);
-            this.TxtAlamatSupp.Multiline = true;
-            this.TxtAlamatSupp.Name = "TxtAlamatSupp";
-            this.TxtAlamatSupp.Size = new System.Drawing.Size(156, 23);
-            this.TxtAlamatSupp.TabIndex = 2;
+            this.TxtJmlahBrgEdit.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtJmlahBrgEdit.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtJmlahBrgEdit.Location = new System.Drawing.Point(194, 103);
+            this.TxtJmlahBrgEdit.Multiline = true;
+            this.TxtJmlahBrgEdit.Name = "TxtJmlahBrgEdit";
+            this.TxtJmlahBrgEdit.Size = new System.Drawing.Size(153, 23);
+            this.TxtJmlahBrgEdit.TabIndex = 3;
             // 
-            // TxtNoHpSupp
+            // TxtNamaEditBrg
             // 
-            this.TxtNoHpSupp.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtNoHpSupp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNoHpSupp.Location = new System.Drawing.Point(193, 136);
-            this.TxtNoHpSupp.Multiline = true;
-            this.TxtNoHpSupp.Name = "TxtNoHpSupp";
-            this.TxtNoHpSupp.Size = new System.Drawing.Size(156, 23);
-            this.TxtNoHpSupp.TabIndex = 3;
+            this.TxtNamaEditBrg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtNamaEditBrg.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNamaEditBrg.Location = new System.Drawing.Point(194, 71);
+            this.TxtNamaEditBrg.Multiline = true;
+            this.TxtNamaEditBrg.Name = "TxtNamaEditBrg";
+            this.TxtNamaEditBrg.Size = new System.Drawing.Size(153, 23);
+            this.TxtNamaEditBrg.TabIndex = 2;
             // 
-            // TxtEmailSupp
+            // TxtKodeBrgEdit
             // 
-            this.TxtEmailSupp.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtEmailSupp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEmailSupp.Location = new System.Drawing.Point(193, 167);
-            this.TxtEmailSupp.Multiline = true;
-            this.TxtEmailSupp.Name = "TxtEmailSupp";
-            this.TxtEmailSupp.Size = new System.Drawing.Size(156, 23);
-            this.TxtEmailSupp.TabIndex = 4;
+            this.TxtKodeBrgEdit.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtKodeBrgEdit.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtKodeBrgEdit.Location = new System.Drawing.Point(194, 38);
+            this.TxtKodeBrgEdit.Multiline = true;
+            this.TxtKodeBrgEdit.Name = "TxtKodeBrgEdit";
+            this.TxtKodeBrgEdit.Size = new System.Drawing.Size(153, 23);
+            this.TxtKodeBrgEdit.TabIndex = 1;
             // 
-            // BtnSmpanEditSupp
+            // TxtEditBarangId
             // 
-            this.BtnSmpanEditSupp.BackColor = System.Drawing.Color.Yellow;
-            this.BtnSmpanEditSupp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSmpanEditSupp.Location = new System.Drawing.Point(193, 202);
-            this.BtnSmpanEditSupp.Name = "BtnSmpanEditSupp";
-            this.BtnSmpanEditSupp.Size = new System.Drawing.Size(75, 26);
-            this.BtnSmpanEditSupp.TabIndex = 15;
-            this.BtnSmpanEditSupp.Text = "Simpan";
-            this.BtnSmpanEditSupp.UseVisualStyleBackColor = false;
-            this.BtnSmpanEditSupp.Click += new System.EventHandler(this.BtnSmpanEditSupp_Click);
+            this.TxtEditBarangId.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtEditBarangId.Enabled = false;
+            this.TxtEditBarangId.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEditBarangId.Location = new System.Drawing.Point(194, 4);
+            this.TxtEditBarangId.Multiline = true;
+            this.TxtEditBarangId.Name = "TxtEditBarangId";
+            this.TxtEditBarangId.Size = new System.Drawing.Size(153, 23);
+            this.TxtEditBarangId.TabIndex = 0;
             // 
-            // BtnCancelSupp
+            // PicBoxEdit
             // 
-            this.BtnCancelSupp.BackColor = System.Drawing.Color.Yellow;
-            this.BtnCancelSupp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCancelSupp.Location = new System.Drawing.Point(276, 202);
-            this.BtnCancelSupp.Name = "BtnCancelSupp";
-            this.BtnCancelSupp.Size = new System.Drawing.Size(75, 26);
-            this.BtnCancelSupp.TabIndex = 16;
-            this.BtnCancelSupp.Text = "Cancel";
-            this.BtnCancelSupp.UseVisualStyleBackColor = false;
-            this.BtnCancelSupp.Click += new System.EventHandler(this.BtnCancelSupp_Click);
+            this.PicBoxEdit.BackColor = System.Drawing.Color.Transparent;
+            this.PicBoxEdit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.PicBoxEdit.Image = ((System.Drawing.Image)(resources.GetObject("PicBoxEdit.Image")));
+            this.PicBoxEdit.Location = new System.Drawing.Point(27, 77);
+            this.PicBoxEdit.Name = "PicBoxEdit";
+            this.PicBoxEdit.Size = new System.Drawing.Size(158, 37);
+            this.PicBoxEdit.TabIndex = 17;
+            this.PicBoxEdit.TabStop = false;
+            // 
+            // PnlSuppEdits
+            // 
+            this.PnlSuppEdits.BackColor = System.Drawing.Color.Transparent;
+            this.PnlSuppEdits.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PnlSuppEdits.BackgroundImage")));
+            this.PnlSuppEdits.Controls.Add(this.BtnCncelSuppl);
+            this.PnlSuppEdits.Controls.Add(this.BtnSimpanSuppL);
+            this.PnlSuppEdits.Controls.Add(this.TxtEmailSuppL);
+            this.PnlSuppEdits.Controls.Add(this.TxtNoHpSuppL);
+            this.PnlSuppEdits.Controls.Add(this.TxtAlamatSuppL);
+            this.PnlSuppEdits.Controls.Add(this.TxtNamaSupL);
+            this.PnlSuppEdits.Controls.Add(this.TxtKodeSuppL);
+            this.PnlSuppEdits.Location = new System.Drawing.Point(8, 172);
+            this.PnlSuppEdits.Name = "PnlSuppEdits";
+            this.PnlSuppEdits.Size = new System.Drawing.Size(370, 232);
+            this.PnlSuppEdits.TabIndex = 19;
+            // 
+            // TxtKodeSuppL
+            // 
+            this.TxtKodeSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtKodeSuppL.Enabled = false;
+            this.TxtKodeSuppL.Location = new System.Drawing.Point(193, 38);
+            this.TxtKodeSuppL.Multiline = true;
+            this.TxtKodeSuppL.Name = "TxtKodeSuppL";
+            this.TxtKodeSuppL.Size = new System.Drawing.Size(156, 23);
+            this.TxtKodeSuppL.TabIndex = 20;
+            // 
+            // TxtNamaSupL
+            // 
+            this.TxtNamaSupL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtNamaSupL.Location = new System.Drawing.Point(193, 70);
+            this.TxtNamaSupL.Multiline = true;
+            this.TxtNamaSupL.Name = "TxtNamaSupL";
+            this.TxtNamaSupL.Size = new System.Drawing.Size(156, 23);
+            this.TxtNamaSupL.TabIndex = 21;
+            // 
+            // TxtAlamatSuppL
+            // 
+            this.TxtAlamatSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtAlamatSuppL.Location = new System.Drawing.Point(193, 104);
+            this.TxtAlamatSuppL.Multiline = true;
+            this.TxtAlamatSuppL.Name = "TxtAlamatSuppL";
+            this.TxtAlamatSuppL.Size = new System.Drawing.Size(156, 23);
+            this.TxtAlamatSuppL.TabIndex = 22;
+            // 
+            // TxtNoHpSuppL
+            // 
+            this.TxtNoHpSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtNoHpSuppL.Location = new System.Drawing.Point(192, 136);
+            this.TxtNoHpSuppL.Multiline = true;
+            this.TxtNoHpSuppL.Name = "TxtNoHpSuppL";
+            this.TxtNoHpSuppL.Size = new System.Drawing.Size(156, 23);
+            this.TxtNoHpSuppL.TabIndex = 23;
+            // 
+            // TxtEmailSuppL
+            // 
+            this.TxtEmailSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtEmailSuppL.Location = new System.Drawing.Point(192, 168);
+            this.TxtEmailSuppL.Multiline = true;
+            this.TxtEmailSuppL.Name = "TxtEmailSuppL";
+            this.TxtEmailSuppL.Size = new System.Drawing.Size(156, 23);
+            this.TxtEmailSuppL.TabIndex = 24;
+            // 
+            // BtnSimpanSuppL
+            // 
+            this.BtnSimpanSuppL.BackColor = System.Drawing.Color.Yellow;
+            this.BtnSimpanSuppL.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSimpanSuppL.Location = new System.Drawing.Point(197, 202);
+            this.BtnSimpanSuppL.Name = "BtnSimpanSuppL";
+            this.BtnSimpanSuppL.Size = new System.Drawing.Size(75, 26);
+            this.BtnSimpanSuppL.TabIndex = 20;
+            this.BtnSimpanSuppL.Text = "Simpan";
+            this.BtnSimpanSuppL.UseVisualStyleBackColor = false;
+            this.BtnSimpanSuppL.Click += new System.EventHandler(this.BtnSimpanSuppL_Click);
+            // 
+            // BtnCncelSuppl
+            // 
+            this.BtnCncelSuppl.BackColor = System.Drawing.Color.Yellow;
+            this.BtnCncelSuppl.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCncelSuppl.Location = new System.Drawing.Point(274, 202);
+            this.BtnCncelSuppl.Name = "BtnCncelSuppl";
+            this.BtnCncelSuppl.Size = new System.Drawing.Size(75, 26);
+            this.BtnCncelSuppl.TabIndex = 25;
+            this.BtnCncelSuppl.Text = "Cancel";
+            this.BtnCncelSuppl.UseVisualStyleBackColor = false;
+            this.BtnCncelSuppl.Click += new System.EventHandler(this.BtnCncelSuppl_Click);
             // 
             // FormEditCustomer
             // 
@@ -406,6 +413,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(384, 495);
+            this.Controls.Add(this.PnlSuppEdits);
+            this.Controls.Add(this.PicBoxEdit);
             this.Controls.Add(this.PnlEditBarang);
             this.Controls.Add(this.PicBoxClose);
             this.Controls.Add(this.CmboBoxItem);
@@ -422,8 +431,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxClose)).EndInit();
             this.PnlEditBarang.ResumeLayout(false);
             this.PnlEditBarang.PerformLayout();
-            this.PnlEditSuppl.ResumeLayout(false);
-            this.PnlEditSuppl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBoxEdit)).EndInit();
+            this.PnlSuppEdits.ResumeLayout(false);
+            this.PnlSuppEdits.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -452,13 +462,14 @@
         private System.Windows.Forms.TextBox TxtEditBarangId;
         private System.Windows.Forms.Button BtnCancelEdit;
         private System.Windows.Forms.Button BtnSimpanEditBarang;
-        private System.Windows.Forms.Panel PnlEditSuppl;
-        private System.Windows.Forms.Button BtnSmpanEditSupp;
-        private System.Windows.Forms.TextBox TxtEmailSupp;
-        private System.Windows.Forms.TextBox TxtNoHpSupp;
-        private System.Windows.Forms.TextBox TxtAlamatSupp;
-        private System.Windows.Forms.TextBox TxtNamaSupp;
-        private System.Windows.Forms.TextBox TxtKodeSupp;
-        private System.Windows.Forms.Button BtnCancelSupp;
+        private System.Windows.Forms.PictureBox PicBoxEdit;
+        private System.Windows.Forms.Panel PnlSuppEdits;
+        private System.Windows.Forms.TextBox TxtEmailSuppL;
+        private System.Windows.Forms.TextBox TxtNoHpSuppL;
+        private System.Windows.Forms.TextBox TxtAlamatSuppL;
+        private System.Windows.Forms.TextBox TxtNamaSupL;
+        private System.Windows.Forms.TextBox TxtKodeSuppL;
+        private System.Windows.Forms.Button BtnCncelSuppl;
+        private System.Windows.Forms.Button BtnSimpanSuppL;
     }
 }
