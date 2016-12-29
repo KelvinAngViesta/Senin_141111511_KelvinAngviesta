@@ -52,13 +52,13 @@
             this.TxtEditBarangId = new System.Windows.Forms.TextBox();
             this.PicBoxEdit = new System.Windows.Forms.PictureBox();
             this.PnlSuppEdits = new System.Windows.Forms.Panel();
-            this.TxtKodeSuppL = new System.Windows.Forms.TextBox();
-            this.TxtNamaSupL = new System.Windows.Forms.TextBox();
-            this.TxtAlamatSuppL = new System.Windows.Forms.TextBox();
-            this.TxtNoHpSuppL = new System.Windows.Forms.TextBox();
-            this.TxtEmailSuppL = new System.Windows.Forms.TextBox();
-            this.BtnSimpanSuppL = new System.Windows.Forms.Button();
             this.BtnCncelSuppl = new System.Windows.Forms.Button();
+            this.BtnSimpanSuppL = new System.Windows.Forms.Button();
+            this.TxtEmailSuppL = new System.Windows.Forms.TextBox();
+            this.TxtNoHpSuppL = new System.Windows.Forms.TextBox();
+            this.TxtAlamatSuppL = new System.Windows.Forms.TextBox();
+            this.TxtNamaSupL = new System.Windows.Forms.TextBox();
+            this.TxtKodeSuppL = new System.Windows.Forms.TextBox();
             this.PnlEditCust.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxClose)).BeginInit();
             this.PnlEditBarang.SuspendLayout();
@@ -92,10 +92,6 @@
             this.CmboBoxItem.BackColor = System.Drawing.Color.White;
             this.CmboBoxItem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmboBoxItem.FormattingEnabled = true;
-            this.CmboBoxItem.Items.AddRange(new object[] {
-            "Barang",
-            "Customer",
-            "Supplier"});
             this.CmboBoxItem.Location = new System.Drawing.Point(192, 113);
             this.CmboBoxItem.Name = "CmboBoxItem";
             this.CmboBoxItem.Size = new System.Drawing.Size(157, 21);
@@ -335,51 +331,17 @@
             this.PnlSuppEdits.Size = new System.Drawing.Size(370, 232);
             this.PnlSuppEdits.TabIndex = 19;
             // 
-            // TxtKodeSuppL
+            // BtnCncelSuppl
             // 
-            this.TxtKodeSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtKodeSuppL.Enabled = false;
-            this.TxtKodeSuppL.Location = new System.Drawing.Point(193, 38);
-            this.TxtKodeSuppL.Multiline = true;
-            this.TxtKodeSuppL.Name = "TxtKodeSuppL";
-            this.TxtKodeSuppL.Size = new System.Drawing.Size(156, 23);
-            this.TxtKodeSuppL.TabIndex = 20;
-            // 
-            // TxtNamaSupL
-            // 
-            this.TxtNamaSupL.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtNamaSupL.Location = new System.Drawing.Point(193, 70);
-            this.TxtNamaSupL.Multiline = true;
-            this.TxtNamaSupL.Name = "TxtNamaSupL";
-            this.TxtNamaSupL.Size = new System.Drawing.Size(156, 23);
-            this.TxtNamaSupL.TabIndex = 21;
-            // 
-            // TxtAlamatSuppL
-            // 
-            this.TxtAlamatSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtAlamatSuppL.Location = new System.Drawing.Point(193, 104);
-            this.TxtAlamatSuppL.Multiline = true;
-            this.TxtAlamatSuppL.Name = "TxtAlamatSuppL";
-            this.TxtAlamatSuppL.Size = new System.Drawing.Size(156, 23);
-            this.TxtAlamatSuppL.TabIndex = 22;
-            // 
-            // TxtNoHpSuppL
-            // 
-            this.TxtNoHpSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtNoHpSuppL.Location = new System.Drawing.Point(192, 136);
-            this.TxtNoHpSuppL.Multiline = true;
-            this.TxtNoHpSuppL.Name = "TxtNoHpSuppL";
-            this.TxtNoHpSuppL.Size = new System.Drawing.Size(156, 23);
-            this.TxtNoHpSuppL.TabIndex = 23;
-            // 
-            // TxtEmailSuppL
-            // 
-            this.TxtEmailSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtEmailSuppL.Location = new System.Drawing.Point(192, 168);
-            this.TxtEmailSuppL.Multiline = true;
-            this.TxtEmailSuppL.Name = "TxtEmailSuppL";
-            this.TxtEmailSuppL.Size = new System.Drawing.Size(156, 23);
-            this.TxtEmailSuppL.TabIndex = 24;
+            this.BtnCncelSuppl.BackColor = System.Drawing.Color.Yellow;
+            this.BtnCncelSuppl.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCncelSuppl.Location = new System.Drawing.Point(274, 202);
+            this.BtnCncelSuppl.Name = "BtnCncelSuppl";
+            this.BtnCncelSuppl.Size = new System.Drawing.Size(75, 26);
+            this.BtnCncelSuppl.TabIndex = 25;
+            this.BtnCncelSuppl.Text = "Cancel";
+            this.BtnCncelSuppl.UseVisualStyleBackColor = false;
+            this.BtnCncelSuppl.Click += new System.EventHandler(this.BtnCncelSuppl_Click);
             // 
             // BtnSimpanSuppL
             // 
@@ -393,17 +355,51 @@
             this.BtnSimpanSuppL.UseVisualStyleBackColor = false;
             this.BtnSimpanSuppL.Click += new System.EventHandler(this.BtnSimpanSuppL_Click);
             // 
-            // BtnCncelSuppl
+            // TxtEmailSuppL
             // 
-            this.BtnCncelSuppl.BackColor = System.Drawing.Color.Yellow;
-            this.BtnCncelSuppl.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCncelSuppl.Location = new System.Drawing.Point(274, 202);
-            this.BtnCncelSuppl.Name = "BtnCncelSuppl";
-            this.BtnCncelSuppl.Size = new System.Drawing.Size(75, 26);
-            this.BtnCncelSuppl.TabIndex = 25;
-            this.BtnCncelSuppl.Text = "Cancel";
-            this.BtnCncelSuppl.UseVisualStyleBackColor = false;
-            this.BtnCncelSuppl.Click += new System.EventHandler(this.BtnCncelSuppl_Click);
+            this.TxtEmailSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtEmailSuppL.Location = new System.Drawing.Point(192, 168);
+            this.TxtEmailSuppL.Multiline = true;
+            this.TxtEmailSuppL.Name = "TxtEmailSuppL";
+            this.TxtEmailSuppL.Size = new System.Drawing.Size(156, 23);
+            this.TxtEmailSuppL.TabIndex = 24;
+            // 
+            // TxtNoHpSuppL
+            // 
+            this.TxtNoHpSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtNoHpSuppL.Location = new System.Drawing.Point(192, 136);
+            this.TxtNoHpSuppL.Multiline = true;
+            this.TxtNoHpSuppL.Name = "TxtNoHpSuppL";
+            this.TxtNoHpSuppL.Size = new System.Drawing.Size(156, 23);
+            this.TxtNoHpSuppL.TabIndex = 23;
+            // 
+            // TxtAlamatSuppL
+            // 
+            this.TxtAlamatSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtAlamatSuppL.Location = new System.Drawing.Point(193, 104);
+            this.TxtAlamatSuppL.Multiline = true;
+            this.TxtAlamatSuppL.Name = "TxtAlamatSuppL";
+            this.TxtAlamatSuppL.Size = new System.Drawing.Size(156, 23);
+            this.TxtAlamatSuppL.TabIndex = 22;
+            // 
+            // TxtNamaSupL
+            // 
+            this.TxtNamaSupL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtNamaSupL.Location = new System.Drawing.Point(193, 70);
+            this.TxtNamaSupL.Multiline = true;
+            this.TxtNamaSupL.Name = "TxtNamaSupL";
+            this.TxtNamaSupL.Size = new System.Drawing.Size(156, 23);
+            this.TxtNamaSupL.TabIndex = 21;
+            // 
+            // TxtKodeSuppL
+            // 
+            this.TxtKodeSuppL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtKodeSuppL.Enabled = false;
+            this.TxtKodeSuppL.Location = new System.Drawing.Point(193, 38);
+            this.TxtKodeSuppL.Multiline = true;
+            this.TxtKodeSuppL.Name = "TxtKodeSuppL";
+            this.TxtKodeSuppL.Size = new System.Drawing.Size(156, 23);
+            this.TxtKodeSuppL.TabIndex = 20;
             // 
             // FormEditCustomer
             // 

@@ -11,7 +11,9 @@ using MySql.Data.MySqlClient;
 using Latihan_POS.Properties;
 using Latihan_POS.FormMenu;
 using Latihan_POS.FormEdit;
-
+using Latihan_POS.AllClass;
+using Latihan_POS.FormDeleteAll;
+using Latihan_POS.FormLihatAll;
 namespace Latihan_POS
 {
     public partial class FormAwal : Form
@@ -25,8 +27,12 @@ namespace Latihan_POS
         private void PicBox1_MouseHover(object sender, EventArgs e)
         {
             PicBox1.Image = Resources.AddRegisBarang2;
+            
         }
+        private void FormAwal_Load(object sender, EventArgs e)
+        {
 
+        }
         private void PicBox1_MouseLeave(object sender, EventArgs e)
         {
             PicBox1.Image = Resources.AddRegisBarang1;
@@ -90,19 +96,28 @@ namespace Latihan_POS
         {
             Application.Exit();
         }
+        private void pictureBox1_MouseHover_1(object sender, EventArgs e)
+        {
+            PicBoxAddItem.Image = Resources.IconAddBarangNews2;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            PicBoxAddItem.Image = Resources.IconAddBarangNews1;
+        }
+        private void PicDeleteAll_MouseHover(object sender, EventArgs e)
+        {
+            PicDeleteAll.Image = Resources.data_delete_icon22;
+        }
+
+        private void PicDeleteAll_MouseLeave(object sender, EventArgs e)
+        {
+            PicDeleteAll.Image = Resources.data_delete_icon2;
+        }
         private void PicBox1_Click(object sender, EventArgs e)
         {
-            FormRegistrationBarang FormRegis = new FormRegistrationBarang();
-            PicBox2.Hide();
-            PicBox4.Hide();
-            PicBox.Hide();
-            PicBox1.Hide();
-            PicBoxCust.Hide();
-            PicBoxClose.Hide();
-            PicBoxSup.Hide();
-            PicEditCust.Hide();
-            FormRegis.ShowDialog();
-            
+           
+           
            
         }
 
@@ -118,6 +133,7 @@ namespace Latihan_POS
             PicBoxClose.Hide();
             PicBoxSup.Hide();
             PicEditCust.Hide();
+            PicDeleteAll.Hide();
             formAbout.ShowDialog();
         }
 
@@ -131,7 +147,9 @@ namespace Latihan_POS
             PicBoxCust.Hide();
             PicBoxClose.Hide();
             PicBoxSup.Hide();
+            PicBoxAddItem.Hide();
             PicEditCust.Hide();
+            PicDeleteAll.Hide();
             FormCust.ShowDialog();
         }
 
@@ -146,6 +164,8 @@ namespace Latihan_POS
             PicBoxClose.Hide();
             PicBoxSup.Hide();
             PicEditCust.Hide();
+            PicBoxAddItem.Hide();
+            PicDeleteAll.Hide();
             FormSup.ShowDialog();
 
         }
@@ -160,37 +180,55 @@ namespace Latihan_POS
             PicBoxCust.Hide();
             PicBoxClose.Hide();
             PicBoxSup.Hide();
-            PicEditCust.Hide();
+            PicBoxAddItem.Hide();
+            PicDeleteAll.Hide();
             FormEditCust.ShowDialog();
             
         }
 
-        private void pictureBox1_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_MouseLeave(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            FormRegistrationBarang FormRegis = new FormRegistrationBarang();
+            PicBox2.Hide();
+            PicBox4.Hide();
+            PicBox.Hide();
+            PicBox1.Hide();
+            PicBoxCust.Hide();
+            PicBoxClose.Hide();
+            PicBoxSup.Hide();
+            PicEditCust.Hide();
+            PicBoxAddItem.Hide();
+            PicDeleteAll.Hide();
+            FormRegis.ShowDialog();
         }
 
-        private void FormAwal_Load(object sender, EventArgs e)
+        private void PicDeleteAll_Click(object sender, EventArgs e)
         {
+            FormDeleteAllItem formDelete = new FormDeleteAllItem();
+            PicBox2.Hide();
+            PicBox4.Hide();
+            PicBox.Hide();
+            PicBox1.Hide();
+            PicBoxCust.Hide();
+            PicBoxClose.Hide();
+            PicBoxSup.Hide();
+            PicEditCust.Hide();
+            PicBoxAddItem.Hide();
+            PicDeleteAll.Hide();
+            formDelete.ShowDialog();
+        }
 
+        private void PicBox2_Click(object sender, EventArgs e)
+        {
+            FormAwal formAwal = new FormAwal();
+            FormViewDataBarang formview = new FormViewDataBarang();
+            formview.ShowDialog();
+            formAwal.Hide();
         }
 
         
 
-        
-       
-
-     
        
         }
     }

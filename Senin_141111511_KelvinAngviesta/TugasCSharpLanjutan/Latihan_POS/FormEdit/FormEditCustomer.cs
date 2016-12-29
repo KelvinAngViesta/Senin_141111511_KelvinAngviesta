@@ -35,6 +35,10 @@ namespace Latihan_POS.FormEdit
             PnlEditBarang.Visible = false;
             PnlSuppEdits.Visible = false;
             PicBoxEdit.Visible = false;
+            CmboBoxItem.Items.Add("Barang");
+            CmboBoxItem.Items.Add("Customer");
+            CmboBoxItem.Items.Add("Supplier");
+            CmboBoxItem.SelectedIndex = 0;
             CmboBoxItem.SelectedIndex = 0;
             if (CmboBoxItem.SelectedItem.ToString() == "Customer")
             {
@@ -58,7 +62,6 @@ namespace Latihan_POS.FormEdit
                     PicBoxEdit.Visible = true;
                     PnlEditBarang.Visible = true;
                     TxtEditBarangId.Text = kode;
-                    MessageBox.Show("Kode Barang Bersifat Tetap");
                     PnlEditCust.Visible = false;
                     PnlSuppEdits.Visible = false;
                 }

@@ -51,13 +51,45 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AllClass\CariTabel.cs" />
+    <Compile Include="AllClass\DeleteAllItem.cs" />
     <Compile Include="AllClass\EditAll.cs" />
     <Compile Include="AllClass\RegisAllitem.cs" />
+    <Compile Include="AllClass\ViewAllItem.cs" />
+    <Compile Include="FormDeleteAll\FormDeleteAllItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeleteAll\FormDeleteAllItem.Designer.cs">
+      <DependentUpon>FormDeleteAllItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormEdit\FormEditCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormEdit\FormEditCustomer.Designer.cs">
       <DependentUpon>FormEditCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLihatAll\FormAlldata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLihatAll\FormAlldata.Designer.cs">
+      <DependentUpon>FormAlldata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLihatAll\FormViewCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLihatAll\FormViewCust.Designer.cs">
+      <DependentUpon>FormViewCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLihatAll\FormViewDataBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLihatAll\FormViewDataBarang.Designer.cs">
+      <DependentUpon>FormViewDataBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLihatAll\FormViewSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLihatAll\FormViewSupplier.Designer.cs">
+      <DependentUpon>FormViewSupplier.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMenu\FormRegisSupplier.cs">
       <SubType>Form</SubType>
@@ -91,8 +123,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormDeleteAll\FormDeleteAllItem.resx">
+      <DependentUpon>FormDeleteAllItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormEdit\FormEditCustomer.resx">
       <DependentUpon>FormEditCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLihatAll\FormAlldata.resx">
+      <DependentUpon>FormAlldata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLihatAll\FormViewCust.resx">
+      <DependentUpon>FormViewCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLihatAll\FormViewDataBarang.resx">
+      <DependentUpon>FormViewDataBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLihatAll\FormViewSupplier.resx">
+      <DependentUpon>FormViewSupplier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu\FormAbout.resx">
       <DependentUpon>FormAbout.cs</DependentUpon>
@@ -191,6 +238,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\%24this.BackgroundImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconAddBarangNews1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconAddBarangNews2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data-delete-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteAllitemIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data-delete-icon22.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

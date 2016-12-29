@@ -40,7 +40,8 @@
             this.PicBoxClose = new System.Windows.Forms.PictureBox();
             this.PicBoxSup = new System.Windows.Forms.PictureBox();
             this.PicEditCust = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PicBoxAddItem = new System.Windows.Forms.PictureBox();
+            this.PicDeleteAll = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PicBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBox4)).BeginInit();
@@ -49,13 +50,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxSup)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicEditCust)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBoxAddItem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicDeleteAll)).BeginInit();
             this.SuspendLayout();
             // 
             // barangToolStripMenuItem
             // 
             this.barangToolStripMenuItem.Name = "barangToolStripMenuItem";
-            this.barangToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.barangToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.barangToolStripMenuItem.Text = "Barang";
             // 
             // registrationToolStripMenuItem
@@ -70,7 +72,7 @@
             // custToolStripMenuItem
             // 
             this.custToolStripMenuItem.Name = "custToolStripMenuItem";
-            this.custToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.custToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.custToolStripMenuItem.Text = "Customer";
             // 
             // PicBox2
@@ -81,6 +83,7 @@
             this.PicBox2.Size = new System.Drawing.Size(129, 130);
             this.PicBox2.TabIndex = 10;
             this.PicBox2.TabStop = false;
+            this.PicBox2.Click += new System.EventHandler(this.PicBox2_Click);
             this.PicBox2.MouseLeave += new System.EventHandler(this.PicBox2_MouseLeave);
             this.PicBox2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
             // 
@@ -166,17 +169,29 @@
             this.PicEditCust.MouseLeave += new System.EventHandler(this.PicEditCust_MouseLeave);
             this.PicEditCust.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
-            // pictureBox1
+            // PicBoxAddItem
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(508, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(31, 31);
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
-            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover_1);
+            this.PicBoxAddItem.Image = ((System.Drawing.Image)(resources.GetObject("PicBoxAddItem.Image")));
+            this.PicBoxAddItem.Location = new System.Drawing.Point(508, 13);
+            this.PicBoxAddItem.Name = "PicBoxAddItem";
+            this.PicBoxAddItem.Size = new System.Drawing.Size(31, 31);
+            this.PicBoxAddItem.TabIndex = 15;
+            this.PicBoxAddItem.TabStop = false;
+            this.PicBoxAddItem.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.PicBoxAddItem.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
+            this.PicBoxAddItem.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover_1);
+            // 
+            // PicDeleteAll
+            // 
+            this.PicDeleteAll.Image = ((System.Drawing.Image)(resources.GetObject("PicDeleteAll.Image")));
+            this.PicDeleteAll.Location = new System.Drawing.Point(628, 13);
+            this.PicDeleteAll.Name = "PicDeleteAll";
+            this.PicDeleteAll.Size = new System.Drawing.Size(25, 29);
+            this.PicDeleteAll.TabIndex = 16;
+            this.PicDeleteAll.TabStop = false;
+            this.PicDeleteAll.Click += new System.EventHandler(this.PicDeleteAll_Click);
+            this.PicDeleteAll.MouseLeave += new System.EventHandler(this.PicDeleteAll_MouseLeave);
+            this.PicDeleteAll.MouseHover += new System.EventHandler(this.PicDeleteAll_MouseHover);
             // 
             // FormAwal
             // 
@@ -186,7 +201,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(734, 499);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PicDeleteAll);
+            this.Controls.Add(this.PicBoxAddItem);
             this.Controls.Add(this.PicEditCust);
             this.Controls.Add(this.PicBoxSup);
             this.Controls.Add(this.PicBoxClose);
@@ -209,7 +225,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxSup)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicEditCust)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBoxAddItem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicDeleteAll)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -227,7 +244,8 @@
         private System.Windows.Forms.PictureBox PicBoxClose;
         private System.Windows.Forms.PictureBox PicBoxSup;
         private System.Windows.Forms.PictureBox PicEditCust;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox PicBoxAddItem;
+        private System.Windows.Forms.PictureBox PicDeleteAll;
     }
 }
 
