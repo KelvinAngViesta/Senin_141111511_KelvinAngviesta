@@ -78,5 +78,38 @@ namespace Latihan_POS.AllClass
             }
             return Nilai;
         }
+        public void CeKBarang(String KodeBrg, TextBox NamaSup, TextBox HargaBrg, ComboBox Cmbox)
+        {
+            conn = new MySqlConnection(connString);
+            MySqlDataReader reader;
+            try
+            {
+                conn.Open();
+                string sql = "SELECT nama,jumlahAwal,hargajual FROM tblbarang where id= '" + KodeBrg + "'";
+                
+                cmd = new MySqlCommand(sql, conn);
+                reader = cmd.ExecuteReader();
+               // MessageBox.Show(Convert.ToString(reader));
+                while (reader.Read())
+                {
+
+                    NamaSup.Text = reader.GetString(0);
+                    HargaBrg.Text = reader.GetString(2);
+                    string banyak = reader.GetString(1);
+
+                    for (int i = 1; i < Convert.ToInt32(banyak); i++)
+                    {
+                        Cmbox.Items.Add(i);
+                    }
+
+                }
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
     }
 }

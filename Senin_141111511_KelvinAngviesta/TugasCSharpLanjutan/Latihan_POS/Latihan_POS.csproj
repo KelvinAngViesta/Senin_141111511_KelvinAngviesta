@@ -122,6 +122,12 @@
     <Compile Include="FormMenu\FormRegistrationBarang.Designer.cs">
       <DependentUpon>FormRegistrationBarang.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMenu\FormSell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu\FormSell.Designer.cs">
+      <DependentUpon>FormSell.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMenu\FormTradee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu\FormRegistrationBarang.resx">
       <DependentUpon>FormRegistrationBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu\FormSell.resx">
+      <DependentUpon>FormSell.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu\FormTradee.resx">
       <DependentUpon>FormTradee.cs</DependentUpon>
@@ -263,6 +272,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\data-delete-icon22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconStore1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconStore2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

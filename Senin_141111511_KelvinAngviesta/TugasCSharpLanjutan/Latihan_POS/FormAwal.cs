@@ -37,15 +37,7 @@ namespace Latihan_POS
         {
             PicBox1.Image = Resources.AddRegisBarang1;
         }
-        private void PicBox_MouseHover(object sender, EventArgs e)
-        {
-            PicBox.Image = Resources.AddBarangCustomer1;
-        }
-
-        private void PicBox_MouseLeave(object sender, EventArgs e)
-        {
-            PicBox.Image = Resources.AddBarangCustomer2;
-        }
+       
         private void pictureBox2_MouseHover(object sender, EventArgs e)
         {
             PicBox2.Image = Resources.ListBarang2;
@@ -116,8 +108,11 @@ namespace Latihan_POS
         }
         private void PicBox1_Click(object sender, EventArgs e)
         {
-           
-           
+
+            FormTradee formtrade = new FormTradee();
+            FormAwal formawal = new FormAwal();
+            formtrade.ShowDialog();
+            
            
         }
 
@@ -127,7 +122,6 @@ namespace Latihan_POS
             FormAbout formAbout = new FormAbout();
             PicBox2.Hide();
             PicBox4.Hide();
-            PicBox.Hide();
             PicBox1.Hide();
             PicBoxCust.Hide();
             PicBoxClose.Hide();
@@ -142,7 +136,6 @@ namespace Latihan_POS
             FormCustomer FormCust = new FormCustomer();
             PicBox2.Hide();
             PicBox4.Hide();
-            PicBox.Hide();
             PicBox1.Hide();
             PicBoxCust.Hide();
             PicBoxClose.Hide();
@@ -158,7 +151,6 @@ namespace Latihan_POS
             FormRegisSupplier FormSup = new FormRegisSupplier();
             PicBox2.Hide();
             PicBox4.Hide();
-            PicBox.Hide();
             PicBox1.Hide();
             PicBoxCust.Hide();
             PicBoxClose.Hide();
@@ -175,12 +167,12 @@ namespace Latihan_POS
             FormEditCustomer FormEditCust = new FormEditCustomer();
             PicBox2.Hide();
             PicBox4.Hide();
-            PicBox.Hide();
             PicBox1.Hide();
             PicBoxCust.Hide();
             PicBoxClose.Hide();
             PicBoxSup.Hide();
             PicBoxAddItem.Hide();
+            PicEditCust.Hide();
             PicDeleteAll.Hide();
             FormEditCust.ShowDialog();
             
@@ -192,7 +184,6 @@ namespace Latihan_POS
             FormRegistrationBarang FormRegis = new FormRegistrationBarang();
             PicBox2.Hide();
             PicBox4.Hide();
-            PicBox.Hide();
             PicBox1.Hide();
             PicBoxCust.Hide();
             PicBoxClose.Hide();
@@ -208,7 +199,6 @@ namespace Latihan_POS
             FormDeleteAllItem formDelete = new FormDeleteAllItem();
             PicBox2.Hide();
             PicBox4.Hide();
-            PicBox.Hide();
             PicBox1.Hide();
             PicBoxCust.Hide();
             PicBoxClose.Hide();
@@ -225,6 +215,25 @@ namespace Latihan_POS
             FormViewDataBarang formview = new FormViewDataBarang();
             formview.ShowDialog();
             formAwal.Hide();
+        }
+
+        private void pictureBox1_MouseHover_2(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Resources.IconStore2;
+        }
+
+        private void pictureBox1_MouseLeave_1(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Resources.IconStore1;
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            FormSell formsell = new FormSell();
+            FormAwal formawal = new FormAwal();
+            formsell.ShowDialog();
+            formawal.Hide();
+           
         }
 
         

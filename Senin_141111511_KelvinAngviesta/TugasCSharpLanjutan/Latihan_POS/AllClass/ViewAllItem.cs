@@ -92,5 +92,32 @@ namespace Latihan_POS.AllClass
 
             conn.Close();
         }
+        public void ViewTableSell(DataGridView DgvSell)
+        {
+            MySqlConnection conn;
+            String ConnString = "Server=Localhost; Database=database_latihan_pos; Uid=root; Pwd='';";
+            MySqlCommand cmd;
+            MySqlDataReader reader;
+            conn = new MySqlConnection(ConnString);
+            DgvSell.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            DgvSell.Rows.Clear();
+            DgvSell.Refresh();
+            String sql = "SELECT * FROM tblsell";
+
+            conn.Open();
+            cmd = new MySqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            int totalHarga = 0;
+            while (reader.Read())
+            {
+
+                DataGridViewRow row = new DataGridViewRow();
+                row.CreateCells(DgvSell, reader.GetString(0).ToString(), reader.GetString(1).ToString(), reader.GetString(2).ToString(), reader.GetString(3).ToString()
+                , reader.GetString(4).ToString(), reader.GetString(5).ToString(), reader.GetDateTime(6).ToString("dd-MM-yyyy HH:mm:ss"));
+                totalHarga += reader.GetInt32(5);
+                DgvSell.Rows.Add(row);
+            }
+            conn.Close();
+        }
     }
 }

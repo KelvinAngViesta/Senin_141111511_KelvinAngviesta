@@ -41,3 +41,5 @@ D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Lat
 D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormLihatAll.FormAlldata.resources
 D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormLihatAll.FormViewCust.resources
 D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormLihatAll.FormViewSupplier.resources
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormMenu.FormTradee.resources
+D:\Kuliah\CSharpLanjutan\Senin_141111511_KelvinAngviesta\TugasCSharpLanjutan\Latihan_POS\obj\Debug\Latihan_POS.FormMenu.FormSell.resources
